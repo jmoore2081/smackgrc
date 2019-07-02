@@ -1,7 +1,7 @@
 ---
 templateKey: solutions-page
 title: SMACK GRC Solutions
-image: /img/jumbotron.jpg
+image: /img/smack-grc-being-used.jpg
 heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
