@@ -1,7 +1,8 @@
 ---
 templateKey: solutions-page
 title: SMACK GRC Solutions
-image: /img/smack-grc-being-used.jpg
+mainDescription: SMACKGRC provides solutions for all of your GRC needs
+image: /img/undraw_adjustments_p22m.png
 heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:

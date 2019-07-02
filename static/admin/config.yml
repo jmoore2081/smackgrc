@@ -120,6 +120,7 @@ collections:
               default: "solutions-page",
             }
           - { label: Title, name: title, widget: string }
+          - { label: Main description, name: mainDescription, widget: string }
           - { label: Image, name: image, widget: image }
           - { label: Heading, name: heading, widget: string }
           - { label: Description, name: description, widget: string }
