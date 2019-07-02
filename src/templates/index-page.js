@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, withPrefix } from "gatsby";
-
+import Fade from "react-reveal/Fade";
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -25,7 +25,10 @@ export const IndexPageTemplate = ({
       <div className="container py-24 m-auto flex flex-wrap">
         <div className="mx-auto w-full md:w-1/2 md:mx-0">
           <h1>
-            <span className="inline-block text-xl font-light pb-4">{title}</span><br />
+            <span className="inline-block text-xl font-light pb-4">
+              {title}
+            </span>
+            <br />
             <span className="inline-block text-4xl">{subheading}</span>
           </h1>
           <p className="py-8">
@@ -43,11 +46,13 @@ export const IndexPageTemplate = ({
           </p>
         </div>
         <div className="w-full md:w-1/2">
-          <img
-            src={professor}
-            alt="Business Governance"
-            className="relative z-10"
-          />
+          <Fade bottom>
+            <img
+              src={professor}
+              alt="Business Governance"
+              className="relative z-10"
+            />
+          </Fade>
         </div>
       </div>
     </div>
@@ -61,10 +66,12 @@ export const IndexPageTemplate = ({
         </div>
       </div>
       <div className="md:w-1/3 content p-4">
-        <PreviewCompatibleImage imageInfo={mainpitch} />
+        <Fade bottom>
+          <PreviewCompatibleImage imageInfo={mainpitch} />
+        </Fade>
       </div>
     </div>
-    <div className="bg-white-500 text-grey-600 py-24">
+    <div className="bg-pink-500 text-white-100 py-24">
       <div className="container mx-auto">
         <div className="mx-auto max-w-3xl p-4 pb-24">
           <h3 className="font-semibold text-2xl mb-4 text-yellow-500 after-border-yellow">

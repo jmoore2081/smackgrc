@@ -1,13 +1,15 @@
 import React from "react";
 import PropTypes from "prop-types";
+import marked from "marked";
+import Fade from "react-reveal/Fade";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 import { HTMLContent } from "../components/Content";
-import marked from "marked";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="flex flex-wrap container mx-auto items-stretch">
     {gridItems.map(item => {
       return (
+        <Fade bottom>
         <div key={item.text} className="p-4 w-full md:w-1/2">
           <div className="px-8 py-12 h-full rounded bg-white-100 text-grey-700 shadow-lg overflow-hidden border border-white-300">
             <div
@@ -22,6 +24,7 @@ const FeatureGrid = ({ gridItems }) => (
             <HTMLContent content={marked(item.text)} />
           </div>
         </div>
+        </Fade>
       );
     })}
   </div>
