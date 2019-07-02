@@ -45,10 +45,10 @@ h6 {
   @apply ml-3;
 }
 .content ul {
-  @apply list-inside list-disc;
+  @apply list-outside list-disc;
 }
 .content ol {
-  @apply list-inside list-decimal;
+  @apply list-outside list-decimal;
 }
 .content p {
   @apply my-2;
