@@ -1,9 +1,9 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
-import Layout from '../components/Layout'
-import Features from '../components/Features'
-import RequestAQuote from '../components/RequestAQuote'
+import React from "react";
+import PropTypes from "prop-types";
+import { graphql } from "gatsby";
+import Layout from "../components/Layout";
+import Features from "../components/Features";
+import RequestAQuote from "../components/RequestAQuote";
 
 export const RequirementsPageTemplate = ({
   image,
@@ -12,61 +12,51 @@ export const RequirementsPageTemplate = ({
   description,
   intro,
   main,
-  fullImage,
+  fullImage
 }) => (
   <div className="content">
     <div
-      className="w-full h-64 flex flex-wrap items-center text-center"
+      className="w-full h-64 flex flex-wrap items-center"
       style={{
         backgroundImage: `url(${
           !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`,
+        })`
       }}
     >
-      <h1
-        className="font-bold text-xl"
-      >
-        {title}
-      </h1>
+      <div className="container m-auto">
+        <h1 className="font-bold text-xl">{title}</h1>
+      </div>
     </div>
-    <section className="section section--gradient">
-      <div className="container">
+    <section className="section pt-12 section--gradient">
+      <div className="container m-auto">
         <div className="section">
-          <div className="columns">
-            <div className="column is-7 is-offset-1">
-              <h3 className="font-semibold is-size-2">{heading}</h3>
-              <p>{description}</p>
-            </div>
+          <div>
+            <h3 className="font-semibold">{heading}</h3>
+            <p>{description}</p>
           </div>
-          <div className="columns">
-            <div className="column is-10 is-offset-1">
-              <Features gridItems={intro.blurbs} />
-              <div className="columns">
-                <div className="column is-7">
-                  <h3 className="font-semibold is-size-3">
-                    {main.heading}
-                  </h3>
-                  <p>{main.description}</p>
-                </div>
-              </div>
-              <div
-                className="full-width-image-container"
-                style={{
-                  backgroundImage: `url(${
-                    fullImage.childImageSharp
-                      ? fullImage.childImageSharp.fluid.src
-                      : fullImage
-                  })`,
-                }}
-              />
+          <div>
+            <Features gridItems={intro.blurbs} />
+            <div className="pt-12">
+              <h3 className="font-semibold">{main.heading}</h3>
+              <p>{main.description}</p>
             </div>
+            <div
+              className="full-width-image-container"
+              style={{
+                backgroundImage: `url(${
+                  fullImage.childImageSharp
+                    ? fullImage.childImageSharp.fluid.src
+                    : fullImage
+                })`
+              }}
+            />
           </div>
         </div>
       </div>
     </section>
     <RequestAQuote />
   </div>
-)
+);
 
 RequirementsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
@@ -74,20 +64,20 @@ RequirementsPageTemplate.propTypes = {
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
-    blurbs: PropTypes.array,
+    blurbs: PropTypes.array
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
     description: PropTypes.string,
     image1: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
+    image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
   }),
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
-}
+  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+};
 
 const RequirementsPage = ({ data }) => {
-  const { frontmatter } = data.markdownRemark
+  const { frontmatter } = data.markdownRemark;
 
   return (
     <Layout>
@@ -101,18 +91,18 @@ const RequirementsPage = ({ data }) => {
         fullImage={frontmatter.full_image}
       />
     </Layout>
-  )
-}
+  );
+};
 
 RequirementsPage.propTypes = {
   data: PropTypes.shape({
     markdownRemark: PropTypes.shape({
-      frontmatter: PropTypes.object,
-    }),
-  }),
-}
+      frontmatter: PropTypes.object
+    })
+  })
+};
 
-export default RequirementsPage
+export default RequirementsPage;
 
 export const RequirementsPageQuery = graphql`
   query RequirementsPage($id: String!) {
@@ -157,4 +147,4 @@ export const RequirementsPageQuery = graphql`
       }
     }
   }
-`
+`;

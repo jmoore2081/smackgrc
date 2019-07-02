@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
-import { Link, graphql } from "gatsby";
+import { Link, graphql, withPrefix } from "gatsby";
+
 
 import Layout from "../components/Layout";
 import Features from "../components/Features";
@@ -32,7 +33,7 @@ export const IndexPageTemplate = ({
               return (
                 <Link
                   className="block md:inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-100 text-sea-700 font-semibold hover:text-sea-900"
-                  to={`${buttonLink}`}
+                  to={withPrefix(buttonLink)}
                   key={buttonText}
                 >
                   {buttonText}
