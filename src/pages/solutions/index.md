@@ -1,7 +1,8 @@
 ---
 templateKey: solutions-page
 title: SMACK GRC Solutions
-image: /img/undraw_modern_professional_yt9h.png
+mainDescription: SMACKGRC provides solutions for all of your GRC needs
+image: /img/undraw_revenue_3osh.png
 heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
@@ -155,6 +156,5 @@ main:
     nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
     rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
     at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
-full_image: /img/ben-den-engelsen-1543021-unsplash.jpg
 ---
 
