@@ -9,7 +9,20 @@ description: >-
   Base will meet your needs. 
 intro:
   blurbs:
-    - text: "* SOX has evolved over the last number of years as the regulators, businesses and auditors have matured. Never has it been more important to ensure that evidence for the operation of controls is clear. \r\n  Monitor your controls compliance real-time, so you do not have to wait and rely on the auditors alone to tell you whether or not you are compliant. \r\n  Use checklists within the controls management functionality to ensure that control operators are performing each essential part of key controls, especially \"review\" controls. \r\n  Manage and monitor remediation of failed controls real-time\r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls management. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
+    - text: >-
+        * SOX has evolved over the last number of years as the regulators,
+        businesses and auditors have matured. Never has it been more important
+        to ensure that evidence for the operation of controls is clear. 
+
+        * Monitor your controls compliance real-time, so you do not have to wait
+        and rely on the auditors alone to tell you whether or not you are
+        compliant. 
+          Use checklists within the controls management functionality to ensure that control operators are performing each essential part of key controls, especially "review" controls. 
+        * Manage and monitor remediation of failed controls real-time
+          Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports
+        * Fully customizable. Each organization has different needs when it
+        comes to controls management. It is easy to add new fields, add to or
+        change the functionality according to your organizations' needs
       title: 'Sarbanes Oxley, SOX'
       image: /img/undraw_business_analytics_l92d.png
     - text: "* Data Privacy laws are becoming ever more complex as each jurisdiction puts their own version of data privacy laws and consequences for breaches in place. Just check out the latest Baker McKenzie 2018 Global Privacy Handbook which outlines requirements of laws in more than 50 countries, including GDPR, California state law, HIPAA, Privacy Shield, etc. \r\n  In order to avoid prosecution, fines and penalties, it is critical that controls are operating effectively to ensure that only those authorized are able to see personal data, sensitive personal data, employee personal data, data belonging to minors, etc. \r\n  It is also important to track the handling of any potential data privacy incidents and perform Privacy Impact Assessments as appropriate for system and process changes. (Functionality coming soon, or quickly build your own)\r\n  Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports\r\n  Fully customizable. Each organization has different needs when it comes to controls management. It is easy to add new fields, add to or change the functionality according to your organizations' needs"
