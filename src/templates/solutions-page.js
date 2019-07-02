@@ -12,7 +12,6 @@ export const SolutionsPageTemplate = ({
   description,
   intro,
   main,
-  fullImage
 }) => (
   <div className="content">
     <div
@@ -40,16 +39,6 @@ export const SolutionsPageTemplate = ({
               <h3 className="font-semibold">{main.heading}</h3>
               <p>{main.description}</p>
             </div>
-            <div
-              className="full-width-image-container"
-              style={{
-                backgroundImage: `url(${
-                  fullImage.childImageSharp
-                    ? fullImage.childImageSharp.fluid.src
-                    : fullImage
-                })`
-              }}
-            />
           </div>
         </div>
       </div>
@@ -73,7 +62,6 @@ SolutionsPageTemplate.propTypes = {
     image2: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
     image3: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
   }),
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
 };
 
 const SolutionsPage = ({ data }) => {
@@ -88,7 +76,6 @@ const SolutionsPage = ({ data }) => {
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
-        fullImage={frontmatter.full_image}
       />
     </Layout>
   );
@@ -136,13 +123,6 @@ export const SolutionsPageQuery = graphql`
         main {
           heading
           description
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
       }
     }

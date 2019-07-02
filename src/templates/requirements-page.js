@@ -2,6 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
+import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import RequestAQuote from "../components/RequestAQuote";
@@ -9,19 +10,27 @@ import RequestAQuote from "../components/RequestAQuote";
 export const RequirementsPageTemplate = ({
   image,
   title,
+  mainDescription,
   heading,
   description,
   intro,
-  main,
-  fullImage
+  main
 }) => (
   <div className="content">
-    <div
-      className="w-full flex flex-wrap items-center bg-sea-500"
-    >
+    <div className="w-full flex flex-wrap items-center bg-sea-500">
       <div className="container m-auto flex flex-wrap">
-        <h1 className="w-1/2 font-bold text-xl">{title}</h1>
-        <Img className="w-1/2" fluid={image.childImageSharp.fluid} alt="GRC Requirements" />
+        <div className="w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
+          <h1 className="font-bold text-xl">{title}</h1>
+          <p>{mainDescription}</p>
+        </div>
+        <div className="w-1/2">
+          <Fade bottom>
+            <Img
+              fluid={image.childImageSharp.fluid}
+              alt="GRC Requirements"
+            />
+          </Fade>
+        </div>
       </div>
     </div>
     <section className="section pt-12 section--gradient">
@@ -37,16 +46,6 @@ export const RequirementsPageTemplate = ({
               <h3 className="font-semibold">{main.heading}</h3>
               <p>{main.description}</p>
             </div>
-            <div
-              className="full-width-image-container"
-              style={{
-                backgroundImage: `url(${
-                  fullImage.childImageSharp
-                    ? fullImage.childImageSharp.fluid.src
-                    : fullImage
-                })`
-              }}
-            />
           </div>
         </div>
       </div>
@@ -58,6 +57,7 @@ export const RequirementsPageTemplate = ({
 RequirementsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
+  mainDescription: PropTypes.string,
   heading: PropTypes.string,
   description: PropTypes.string,
   intro: PropTypes.shape({
@@ -65,9 +65,8 @@ RequirementsPageTemplate.propTypes = {
   }),
   main: PropTypes.shape({
     heading: PropTypes.string,
-    description: PropTypes.string,
-  }),
-  fullImage: PropTypes.oneOfType([PropTypes.object, PropTypes.string])
+    description: PropTypes.string
+  })
 };
 
 const RequirementsPage = ({ data }) => {
@@ -78,11 +77,11 @@ const RequirementsPage = ({ data }) => {
       <RequirementsPageTemplate
         image={frontmatter.image}
         title={frontmatter.title}
+        mainDescription={frontmatter.mainDescription}
         heading={frontmatter.heading}
         description={frontmatter.description}
         intro={frontmatter.intro}
         main={frontmatter.main}
-        fullImage={frontmatter.full_image}
       />
     </Layout>
   );
@@ -103,6 +102,7 @@ export const RequirementsPageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        mainDescription
         image {
           childImageSharp {
             fluid(maxWidth: 2048, quality: 100) {
@@ -130,13 +130,6 @@ export const RequirementsPageQuery = graphql`
         main {
           heading
           description
-        }
-        full_image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
       }
     }
