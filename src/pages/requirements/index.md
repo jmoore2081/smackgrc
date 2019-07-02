@@ -112,6 +112,6 @@ main:
     nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
     rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
     at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
-full_image: /img/products-full-width.jpg
+full_image: /img/ben-den-engelsen-1543021-unsplash.jpg
 ---
 
