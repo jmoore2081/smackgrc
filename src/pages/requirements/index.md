@@ -1,7 +1,7 @@
 ---
 templateKey: requirements-page
 title: SMACK GRC Requirements
-image: /img/smack-grc-being-used.jpg
+image: /img/undraw_all_the_data_h4ki.svg
 heading: Requirements for GRC
 description: >-
   No matter whether you are trying to achieve compliance with SOX, PCI DSS, NERC
