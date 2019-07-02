@@ -10,7 +10,7 @@ button:
   - buttonLink: /solutions
     buttonText: Features
   - buttonLink: /requirements
-    buttonText: GRC/IRC Requirements
+    buttonText: GRC Requirements
 mainpitch:
   title: Why SMACK GRC
   image: /img/computer-smack.jpg
