@@ -25,7 +25,7 @@ export const RequirementsPageTemplate = ({
 
   return (
     <div className="content">
-      <div className="w-full flex flex-wrap items-center bg-orange-500 py-12">
+      <div className="w-full flex flex-wrap items-center bg-orange-500 py-12 angle-clip-bottom">
         <div className="container m-auto flex flex-wrap">
           <div className="w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
             <h1 className="font-bold text-xl">{title}</h1>

@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
+import ThemeContext from "../context/theme-context";
 
 export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
+
+  const theme = useContext(ThemeContext);
+  
+  useEffect(() => {
+    theme.setColor('blue');
+  }, [])
 
   return (
     <section className="container mx-auto">

@@ -1,38 +1,30 @@
-import React from 'react'
+import React, { useContext, useEffect } from "react";
 
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import Layout from "../../components/Layout";
+import BlogRoll from "../../components/BlogRoll";
+import ThemeContext from "../../context/theme-context";
 
-export default class BlogIndexPage extends React.Component {
-  render() {
-    return (
-      <Layout>
-        <div
-          className="full-width-image-container margin-top-0"
-          style={{
-            backgroundImage: `url('/img/blog-index.jpg')`,
-          }}
-        >
-          <h1
-            className="font-bold is-size-1"
-            style={{
-              boxShadow: '0.5rem 0 0 #f40, -0.5rem 0 0 #f40',
-              backgroundColor: '#f40',
-              color: 'white',
-              padding: '1rem',
-            }}
-          >
-            Latest Stories
-          </h1>
+export default function BlogIndexPage() {
+  const theme = useContext(ThemeContext);
+
+  useEffect(() => {
+    theme.setColor("green");
+  }, []);
+
+  return (
+    <Layout>
+      <div className="bg-green-600 text-white-100 shadow">
+        <div className="container m-auto">
+          <h1 className="p-4 font-bold">Latest Stories</h1>
         </div>
-        <section className="section">
-          <div className="container">
-            <div className="content">
-              <BlogRoll />
-            </div>
+      </div>
+      <section className="section">
+        <div className="container m-auto">
+          <div className="content py-6">
+            <BlogRoll className="w-full md:w-1/2" />
           </div>
-        </section>
-      </Layout>
-    )
-  }
+        </div>
+      </section>
+    </Layout>
+  );
 }
