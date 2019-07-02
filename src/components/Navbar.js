@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav role="navigation" aria-label="main-navigation">
-        <div className="container m-auto py-8 flex flex-wrap justify-start items-center">
+        <div className="container m-auto py-6 flex flex-wrap justify-start items-center">
           <div className="navbar-brand">
             <Link to="/" className="py-2" title="SMACK GRC Logo">
               <img src={logo} alt="SMACK GRC" style={{ width: "188px" }} />
@@ -103,6 +103,27 @@ const Navbar = class extends React.Component {
                 </svg>
                 Schedule a Demo
               </Link>
+            </div>
+            <div>
+              <a
+                className="px-4 py-4 font-hairline leading-loose text-white-500 flex items-center"
+                href="tel:+18552495655"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  style={{
+                    fill: "white",
+                    marginRight: "0.3em"
+                  }}
+                >
+                  <g transform="scale(0.018 0.018)">
+                    <path d="M704 640c-64 64-64 128-128 128s-128-64-192-128-128-128-128-192 64-64 128-128-128-256-192-256-192 192-192 192c0 128 131.5 387.5 256 512s384 256 512 256c0 0 192-128 192-192s-192-256-256-192z" />
+                  </g>
+                </svg>
+                855 249 5655
+              </a>
             </div>
           </div>
         </div>
