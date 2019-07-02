@@ -15,7 +15,7 @@ export default function BlogIndexPage() {
     <Layout>
       <div className="bg-green-600 text-white-100 shadow">
         <div className="container m-auto">
-          <h1 className="p-4 font-bold">Latest Stories</h1>
+          <h1 className="p-4 font-bold">Latest Posts</h1>
         </div>
       </div>
       <section className="section">
