@@ -44,7 +44,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
-      <div className="bg-sea-400">
+      <div className="bg-sea-500">
         <Navbar />
       </div>
       {children}

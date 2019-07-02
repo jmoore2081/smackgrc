@@ -21,7 +21,7 @@ export const IndexPageTemplate = ({
   demoCallout
 }) => (
   <div>
-    <div className="mt-0 angle-clip-bottom bg-sea-400 text-white-100">
+    <div className="mt-0 angle-clip-bottom bg-sea-500 text-white-100">
       <div className="container py-24 m-auto flex flex-wrap">
         <div className="mx-auto w-full md:w-1/2 md:mx-0">
           <h1>

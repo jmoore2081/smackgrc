@@ -9,21 +9,21 @@ const FeatureGrid = ({ gridItems }) => (
   <div className="flex flex-wrap container mx-auto items-stretch">
     {gridItems.map(item => {
       return (
-        <Fade bottom>
-        <div key={item.text} className="p-4 w-full md:w-1/2">
-          <div className="px-8 py-12 h-full rounded bg-white-100 text-grey-700 shadow-lg overflow-hidden border border-white-300">
-            <div
-              style={{
-                width: "240px"
-              }}
-              className="text-center mx-auto py-4"
-            >
-              <PreviewCompatibleImage imageInfo={item} />
+        <Fade key={item.text} bottom>
+          <div className="p-4 w-full md:w-1/2">
+            <div className="px-8 py-12 h-full rounded bg-white-100 text-grey-700 shadow-lg overflow-hidden border border-white-300">
+              <div
+                style={{
+                  width: "240px"
+                }}
+                className="text-center mx-auto py-4"
+              >
+                <PreviewCompatibleImage imageInfo={item} />
+              </div>
+              <h3 className="text-xl mb-2">{item.title}</h3>
+              <HTMLContent content={marked(item.text)} />
             </div>
-            <h3 className="text-xl mb-2">{item.title}</h3>
-            <HTMLContent content={marked(item.text)} />
           </div>
-        </div>
         </Fade>
       );
     })}

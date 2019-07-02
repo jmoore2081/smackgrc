@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
+import Img from "gatsby-image";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import RequestAQuote from "../components/RequestAQuote";
@@ -16,15 +17,11 @@ export const RequirementsPageTemplate = ({
 }) => (
   <div className="content">
     <div
-      className="w-full h-64 flex flex-wrap items-center"
-      style={{
-        backgroundImage: `url(${
-          !!image.childImageSharp ? image.childImageSharp.fluid.src : image
-        })`
-      }}
+      className="w-full flex flex-wrap items-center bg-sea-500"
     >
-      <div className="container m-auto">
-        <h1 className="font-bold text-xl">{title}</h1>
+      <div className="container m-auto flex flex-wrap">
+        <h1 className="w-1/2 font-bold text-xl">{title}</h1>
+        <Img className="w-1/2" fluid={image.childImageSharp.fluid} alt="GRC Requirements" />
       </div>
     </div>
     <section className="section pt-12 section--gradient">
