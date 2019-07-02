@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
 import Img from "gatsby-image";
@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import RequestAQuote from "../components/RequestAQuote";
+import ThemeContext from "../context/theme-context";
 
 export const RequirementsPageTemplate = ({
   image,
@@ -15,44 +16,49 @@ export const RequirementsPageTemplate = ({
   description,
   intro,
   main
-}) => (
-  <div className="content">
-    <div className="w-full flex flex-wrap items-center bg-sea-500">
-      <div className="container m-auto flex flex-wrap">
-        <div className="w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
-          <h1 className="font-bold text-xl">{title}</h1>
-          <p>{mainDescription}</p>
-        </div>
-        <div className="w-1/2">
-          <Fade bottom>
-            <Img
-              fluid={image.childImageSharp.fluid}
-              alt="GRC Requirements"
-            />
-          </Fade>
+}) => {
+  const theme = useContext(ThemeContext);
+  
+  useEffect(() => {
+    theme.setColor('orange');
+  }, [])
+
+  return (
+    <div className="content">
+      <div className="w-full flex flex-wrap items-center bg-orange-500 py-12">
+        <div className="container m-auto flex flex-wrap">
+          <div className="w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
+            <h1 className="font-bold text-xl">{title}</h1>
+            <p>{mainDescription}</p>
+          </div>
+          <div className="w-1/2">
+            <Fade bottom>
+              <Img fluid={image.childImageSharp.fluid} alt="GRC Requirements" />
+            </Fade>
+          </div>
         </div>
       </div>
-    </div>
-    <section className="section pt-12 section--gradient">
-      <div className="container m-auto">
-        <div className="section">
-          <div>
-            <h3 className="font-semibold">{heading}</h3>
-            <p>{description}</p>
-          </div>
-          <div>
-            <Features gridItems={intro.blurbs} />
-            <div className="pt-12">
-              <h3 className="font-semibold">{main.heading}</h3>
-              <p>{main.description}</p>
+      <section className="section pt-12 section--gradient">
+        <div className="container m-auto">
+          <div className="section">
+            <div>
+              <h3 className="font-semibold">{heading}</h3>
+              <p>{description}</p>
+            </div>
+            <div>
+              <Features gridItems={intro.blurbs} />
+              <div className="pt-12">
+                <h3 className="font-semibold">{main.heading}</h3>
+                <p>{main.description}</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <RequestAQuote />
-  </div>
-);
+      </section>
+      <RequestAQuote />
+    </div>
+  );
+};
 
 RequirementsPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),

@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useContext } from "react";
 import Helmet from "react-helmet";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import useSiteMetadata from "./SiteMetadata";
+import ThemeContext from "../context/theme-context";
 import "./Layout.css";
 
 const TemplateWrapper = ({ children }) => {
   const { title, description } = useSiteMetadata();
+  const theme = useContext(ThemeContext);
   return (
     <div>
       <Helmet>
@@ -44,7 +46,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
       </Helmet>
-      <div className="bg-sea-500">
+      <div className={`bg-${theme.color}-500`}>
         <Navbar />
       </div>
       {children}

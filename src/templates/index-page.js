@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { Link, graphql, withPrefix } from "gatsby";
 import Fade from "react-reveal/Fade";
@@ -8,6 +8,7 @@ import Features from "../components/Features";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 import professor from "../img/professor.svg";
+import ThemeContext from "../context/theme-context";
 
 export const IndexPageTemplate = ({
   image,
@@ -19,7 +20,13 @@ export const IndexPageTemplate = ({
   description,
   intro,
   demoCallout
-}) => (
+}) => {
+  const theme = useContext(ThemeContext);
+  
+  useEffect(() => {
+    theme.setColor('sea');
+  }, [])
+  return (
   <div>
     <div className="mt-0 angle-clip-bottom bg-sea-500 text-white-100">
       <div className="container py-24 m-auto flex flex-wrap">
@@ -101,7 +108,7 @@ export const IndexPageTemplate = ({
       </div>
     </div>
   </div>
-);
+)};
 
 IndexPageTemplate.propTypes = {
   image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
