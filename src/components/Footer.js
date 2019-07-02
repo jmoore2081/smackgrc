@@ -1,18 +1,17 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo-light.svg";
+import logo from "../img/logo-quickbase-light.svg";
 
 const Footer = class extends React.Component {
   render() {
     return (
       <footer className="pt-24 pb-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
         <div className="container m-auto md:flex justify-between align-middle">
-          <div className="content text-center w-full md:w-auto">
+          <div className="content text-center w-full md:w-1/4">
             <img
               src={logo}
               alt="SMACK GRC"
-              style={{ width: "14em", height: "3em" }}
               className="mx-auto"
             />
             <div>

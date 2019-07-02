@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
             {button.map(({ buttonText, buttonLink }) => {
               return (
                 <Link
-                  className="block md:inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-100 text-sea-700 font-semibold hover:text-sea-900"
+                  className="block md:inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-500 text-sea-600 font-semibold hover:text-sea-100"
                   to={withPrefix(buttonLink)}
                   key={buttonText}
                 >
