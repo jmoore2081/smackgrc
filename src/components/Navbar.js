@@ -22,10 +22,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "visible md:visible"
+              navBarActiveClass: "hidden md:visible"
             })
           : this.setState({
-              navBarActiveClass: "hidden md:visible"
+              navBarActiveClass: "visible md:visible"
             });
       }
     );
@@ -52,7 +52,9 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
-            className={`block w-full md:w-auto md:flex md:items-start ${this.state.navBarActiveClass} pl-6`}
+            className={`block w-full md:w-auto md:flex md:items-start ${
+              this.state.navBarActiveClass
+            } pl-6`}
           >
             <div className="text-left w-full md:w-auto">
               <Link
