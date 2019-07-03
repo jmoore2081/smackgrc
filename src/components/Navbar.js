@@ -22,10 +22,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "is-active"
+              navBarActiveClass: "visible md:visible"
             })
           : this.setState({
-              navBarActiveClass: ""
+              navBarActiveClass: "hidden md:visible"
             });
       }
     );
@@ -35,44 +35,46 @@ const Navbar = class extends React.Component {
     return (
       <nav role="navigation" aria-label="main-navigation">
         <div className="container m-auto py-6 flex flex-wrap justify-start items-center">
-          <div className="navbar-brand">
+          <div className=" w-full md:w-auto flex">
             <Link to="/" className="py-2" title="SMACK GRC Logo">
               <img src={logo} alt="SMACK GRC" style={{ width: "188px" }} />
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`visible md:hidden w-1/2 my-3 pr-6 text-white-100 flex flex-wrap justify-end items-center`}
               onClick={() => this.toggleHamburger()}
             >
-              <span />
-              <span />
-              <span />
+              <div className="w-1/6 mr-2">
+                <span className="block border rounded bg-white-100 border-white-100 my-1 w-full" />
+                <span className="block border rounded bg-white-100 border-white-100 mt-1 w-full" />
+                <span className="block border rounded bg-white-100 border-white-100 mt-1 w-full" />
+              </div>
             </div>
           </div>
           <div
-            className={`flex items-start ${this.state.navBarActiveClass} pl-6`}
+            className={`block w-full md:w-auto md:flex md:items-start ${this.state.navBarActiveClass} pl-6`}
           >
-            <div className="navbar-start text-left">
+            <div className="text-left w-full md:w-auto">
               <Link
-                className="px-4 font-hairline leading-loose text-white-500"
+                className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
                 to="/solutions"
               >
                 Solutions
               </Link>
               <Link
-                className="px-4 font-hairline leading-loose text-white-500"
+                className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
                 to="/requirements"
               >
                 GRC Requirements
               </Link>
               <Link
-                className="px-4 font-hairline leading-loose text-white-500"
+                className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
                 to="/about"
               >
                 About
               </Link>
               <Link
-                className="px-4 font-hairline leading-loose text-white-500"
+                className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
                 to="/blog"
               >
                 Blog
@@ -80,9 +82,9 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
-            className={`flex items-end flex-grow justify-end ${
+            className={`flex justify-center items-end flex-grow md:justify-end md:pl-6 ${
               this.state.navBarActiveClass
-            } pl-6`}
+            }`}
           >
             <div className="text-right">
               <Link
