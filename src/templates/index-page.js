@@ -29,7 +29,7 @@ export const IndexPageTemplate = ({
   return (
   <div>
     <div className="mt-0 angle-clip-bottom bg-yellow-500 text-white-100 px-4 md:px-0">
-      <div className="container py-24 m-auto flex flex-wrap">
+      <div className="container py-12 md:py-24 m-auto flex flex-wrap">
         <div className="mx-auto w-full md:w-1/2 md:mx-0">
           <h1>
             <span className="inline-block text-xl font-light pb-4">

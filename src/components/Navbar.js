@@ -52,9 +52,9 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
-            className={`block w-full md:w-auto md:flex md:items-start ${
+            className={`block w-full md:w-auto md:flex md:items-start pl-6 ${
               this.state.navBarActiveClass
-            } pl-6`}
+            }`}
           >
             <div className="text-left w-full md:w-auto">
               <Link
@@ -84,7 +84,7 @@ const Navbar = class extends React.Component {
             </div>
           </div>
           <div
-            className={`flex justify-center items-end flex-grow md:justify-end md:pl-6 ${
+            className={`flex md:flex justify-center items-end flex-grow md:justify-end md:pl-6 ${
               this.state.navBarActiveClass
             }`}
           >
