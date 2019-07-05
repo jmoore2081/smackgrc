@@ -1,10 +1,19 @@
 var proxy = require("http-proxy-middleware");
 
+const {
+  NODE_ENV,
+  URL: NETLIFY_SITE_URL = 'https://smackgrc.com',
+  DEPLOY_PRIME_URL: NETLIFY_DEPLOY_URL = NETLIFY_SITE_URL,
+  CONTEXT: NETLIFY_ENV = NODE_ENV
+} = process.env;
+const isNetlifyProduction = NETLIFY_ENV === 'production';
+const siteUrl = isNetlifyProduction ? NETLIFY_SITE_URL : NETLIFY_DEPLOY_URL;
+
 module.exports = {
   siteMetadata: {
     title: "SMACK GRC",
     description: "Smack GRC",
-    siteUrl: `https://smackgrc.com`
+    siteUrl
   },
   plugins: [
     "gatsby-plugin-react-helmet",
