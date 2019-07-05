@@ -14,18 +14,13 @@ button:
 mainpitch:
   title: Why SMACK GRC
   image: /img/computer-screenshot-1.png
-  description: >
-    SMACK provides a powerful solution to manage your GRC requirements. Lorem
-    ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque fringilla
-    nibh at scelerisque. Praesent efficitur erat sem, in pulvinar massa pulvinar
-    sit amet. Suspendisse potenti. Pellentesque habitant morbi tristique
-    senectus et netus et malesuada fames ac turpis egestas. Aliquam et tempor
-    nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod, nulla
-    sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales magna
-    consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin nibh
-    ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
-    rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
-    at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
+  description: >-
+    SMACK provides a powerful solution to manage your GRC requirements making
+    those in risk, compliance and controls more efficient and effective in their
+    positions. It is the highest value offering in the industry, especially when
+    compared to other applications offering similar features. Additionally,
+    there are no separate or additional charges for additional modules. All
+    modules are included. 
 description: >
   Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque
   pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit
@@ -44,33 +39,33 @@ description: >
   vehicula dolor.
 intro:
   blurbs:
-    - text: >
+    - title: 2-3 week implementation time
+      image: /img/undraw_professor_8lrt.png
+      text: >
         Upload your data quickly via MS Excel. Remote or on-site training and
         implementation services. Training offered at Park City, Utah and other
         locations globally as needed.
-      title: 2-3 week implementation time
-      image: /img/undraw_professor_8lrt.png
-    - text: |
+    - title: No separate charges for individual modules
+      image: /img/undraw_business_analytics_l92d.png
+      text: |
 
         Unlike our competitors, all modules are included in all plans.
-      title: No separate charges for individual modules
-      image: /img/undraw_business_analytics_l92d.png
-    - text: >
+    - title: 'Powerful, dynamic multi-dimensional reporting'
+      image: /img/undraw_pie_graph_x9dy.png
+      text: >
 
         One of the best features of Quick Base is its powerful reporting. It is
         easy to create all types of reports, including, Kanban, Gantt, Calendar,
         Map, and Charts of many kinds.
-      title: 'Powerful, dynamic multi-dimensional reporting'
-      image: /img/undraw_pie_graph_x9dy.png
-    - text: >
+    - title: Fully customizable by you without the need of a developer
+      image: /img/undraw_process_e90d.png
+      text: >
         With Quick Base, you control everything from the look and feel to the
         functionality. The workflows, forms, fields, tables, reports,
         dashboards, and other app building blocks can be configured to match
         your unique  processes. You can even build your own apps from scratch
         with no need for coding or IT assistance. Custom app development has
         never been easier than with Quick Base.
-      title: Fully customizable by you without the need of a developer
-      image: /img/undraw_process_e90d.png
   heading: Heading
   description: description
 demoCallout:
