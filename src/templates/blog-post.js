@@ -17,7 +17,7 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section">
+    <section className="section py-12">
       {helmet || ''}
       <div className="container m-auto content">
         <div className="columns">

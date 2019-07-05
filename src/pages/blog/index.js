@@ -18,7 +18,7 @@ export default function BlogIndexPage() {
           <h1 className="p-4 font-bold">Latest Posts</h1>
         </div>
       </div>
-      <section className="section">
+      <section className="section py-12">
         <div className="container m-auto">
           <div className="content py-6">
             <BlogRoll className="w-full md:w-1/2" />

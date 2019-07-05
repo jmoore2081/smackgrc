@@ -75,12 +75,12 @@ const Navbar = class extends React.Component {
               >
                 About
               </Link>
-              <Link
+              {/* <Link
                 className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
                 to="/blog"
               >
                 Blog
-              </Link>
+              </Link> */}
             </div>
           </div>
           <div
