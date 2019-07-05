@@ -3,7 +3,7 @@ import { Link } from "gatsby";
 
 function RequestAQuote() {
   return (
-    <div className="container mx-auto pt-24 pb-12">
+    <div className="container mx-auto pt-24 pb-12 px-4 md:px-0">
       <div className="text-center">
         <h3 className="text-2xl uppercase after-border-grey mb-4 inline-block">
           Reach out for a free demo
