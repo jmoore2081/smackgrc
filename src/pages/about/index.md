@@ -5,16 +5,20 @@ mainDescription: >-
   SMACK GRC was created by Jeff Moore after noticing a need in the market for a
   flexible, easy to use solution to GRC needs
 image: /img/undraw_data_xmfy.png
+sections:
+  - text: >-
+      For information about Quick Base Security, Privacy, Compliance, and SOC 1,
+      SOC 2, HIPAA and CSA reporting please refer here.
+
+
+      https://www.quickbase.com/security-and-compliance
+
+
+      Also, Quick Base's Cloud Security Alliance CAIQ is available for download
+      from the CSA Star Registry
+    title: Security
+    image: /img/undraw_security_o890.png
 ---
-## Security
-
-For information about Quick Base Security, Privacy, Compliance, and SOC 1, SOC 2, HIPAA and CSA reporting please refer here.
-
-https://www.quickbase.com/security-and-compliance
-
-
-Also, Quick Base's Cloud Security Alliance CAIQ is available for download from the CSA Star Registry
-
 ## Quick Base
 
 Quick Base is a tool that empowers business users to quickly create their own custom software, without code, to improve daily operations and get things done faster. 
