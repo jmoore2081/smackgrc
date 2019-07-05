@@ -3,7 +3,8 @@ var proxy = require("http-proxy-middleware");
 module.exports = {
   siteMetadata: {
     title: "SMACK GRC",
-    description: "Smack GRC"
+    description: "Smack GRC",
+    siteUrl: `https://smackgrc.com`
   },
   plugins: [
     "gatsby-plugin-react-helmet",
@@ -60,6 +61,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -79,16 +81,16 @@ module.exports = {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
         id: "GTM-TV7LQLB",
-  
+
         // Include GTM in development.
         // Defaults to false meaning GTM will only be loaded in production.
-        includeInDevelopment: false,
-  
+        includeInDevelopment: false
+
         // Specify optional GTM environment details.
         // gtmAuth: "YOUR_GOOGLE_TAGMANAGER_ENVIRONMENT_AUTH_STRING",
         // gtmPreview: "gtm_preview_name",
         // dataLayerName: "gtm_data_layer",
-      },
+      }
     },
     {
       resolve: "gatsby-plugin-netlify-cms",
