@@ -49,7 +49,7 @@ intro:
         risks, update risk scores, etc. (Functionality coming soon, or quickly
         build your own)
       title: Risk Management
-      image: /img/undraw_modern_professional_yt9h.png
+      image: /img/undraw_financial_data_es63.png
     - text: >-
         * Task and Time management
 
