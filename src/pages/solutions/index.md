@@ -7,9 +7,7 @@ heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
   blurbs:
-    - title: Controls Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+    - text: >-
         * Configurable control notifications. You may not want to send control
         notifications to all users at the same frequency, or at all. Control
         Notifications are fully configurable for new, open and overdue controls.
@@ -28,9 +26,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-    - title: Risk Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: Controls Management
+      image: /img/undraw_career_development_oqcb.png
+    - text: >-
         * Track and manage your organizations' risks
 
         * Use risk assessments for Projects, Audits, Controls, Observations and
@@ -50,9 +48,9 @@ intro:
         * Send a survey to risk owners to get their feedback on identified
         risks, update risk scores, etc. (Functionality coming soon, or quickly
         build your own)
-    - title: Audit and Project Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: Risk Management
+      image: /img/undraw_modern_professional_yt9h.png
+    - text: >-
         * Task and Time management
 
         * Assign users tasks and allocate time and easily see users availability
@@ -75,9 +73,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to audit and project management. It is easy to add new fields, add
         to or change the functionality according to your organizations' needs
-    - title: Issue/Action Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: Audit and Project Management
+      image: /img/undraw_projections_7g6a.png
+    - text: >-
         * Assign actions to anyone with an email address. They do not need to be
         a QB user.
 
@@ -96,9 +94,9 @@ intro:
         and reports. See Issues and Actions by location, regulatory requirement,
         vendor profile, system profile, OU profile, control domain, etc. Build
         your own custom reports.
-    - title: Controls Assessment Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: Issue/Action Management
+      image: /img/undraw_bookmarks_r6up.png
+    - text: >-
         * Assign Controls Assessments to anyone with an email address. They do
         not need to be a QB user.
 
@@ -117,9 +115,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-    - title: Vendor Management
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: Controls Assessment Management
+      image: /img/undraw_all_the_data_h4ki.png
+    - text: >-
         * Send Vendor Control Assessments to anyone with an email address. They
         do not need to be a QB user.
 
@@ -141,6 +139,8 @@ intro:
 
         * Track System and Vendor metadata including criticality, CIA
         attributes, etc.
+      title: Vendor Management
+      image: /img/undraw_data_xmfy.png
   heading: Solutions
   description: All modules included in all plans. No extra charge for additional modules
 main:
