@@ -1,6 +1,10 @@
 ---
 templateKey: about-page
 title: About SMACK GRC
+mainDescription: >-
+  SMACK GRC was created by Jeff Moore after noticing a need in the market for a
+  flexible, easy to use solution to GRC needs
+image: /img/undraw_data_xmfy.png
 ---
 ## Security
 
