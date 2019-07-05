@@ -1,33 +1,31 @@
 ---
 templateKey: blog-post
-title: First Blog Post
+title: International IIA Conference
 date: 2019-05-21T22:47:55.131Z
-description: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
-  fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar massa
-  pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi tristique
-  senectus et netus et malesuada fames ac turpis egestas. Aliquam et tempor
-  nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod, nulla
-  sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales magna
-  consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin nibh ac
-  est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo rutrum
-  ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada at. Donec
-  laoreet porta est, eu rhoncus purus imperdiet eget.
+description: Visit us in Anaheim!
 featuredpost: true
-featuredimage: /img/patrick-t-kindt-1536513-unsplash.jpg
+featuredimage: /img/2019-socal-slider-location.jpg
 tags:
-  - test
+  - IIA International Conference 2019
 ---
-Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam vehicula dolor.
+Join us for the Institute of Internal Auditors International Conference in July 2019, where we will be introducing SMACK to the audit community. 
+
+The IIA's 2019 International Conference will be held 7-10 July in Anaheim, CA. 
+
+Internal auditors from all over the globe will converge on Southern California to gain new perspectives, insights, and best practices relevant to all levels and industries.
+
+With a theme of "A Vibe All Its Own," the 2019 IIA International Conference will deliver a program that delves into timely issues impacting the profession. On top of earning CPEs, you will have the opportunity to network with fellow auditors from other countries, share ideas, challenges and solutions, and hear from global leaders on topics that apply across the board.
+
+From 8–10 November 1942, The IIA held its first annual conference in New York City. Since then, this world-class event has been held in more than 50 locations worldwide and attracts over 2,500 attendees annually. The IIA’s International Conference showcases the best the profession has to offer and provides participants from around the world with an understanding of the latest developments in internal auditing.
+
+Today, the International Conference is the premier event for internal auditors who want to hear powerful keynote speakers and international presenters representing the global internal audit profession. Attendees are presented with a number of concurrent sessions on today’s current issues and trends, industry best practices seeking to address common challenges, and knowledge-sharing opportunities. The overall experience enhances professional development, provides engaging peer-to-peer networking, affords access to key service firms and vendors, and much more.
+
+The event has been held in all corners of the globe including Argentina, Australia, Canada, France, Israel, Malaysia, the Netherlands, South Africa, United Kingdom, and the United States, at state-of-the-art convention centers and hotels featuring the most sophisticated facilities.
 
 
 
-Nam malesuada condimentum venenatis. Pellentesque eget lectus ut ante porta sollicitudin ac et enim. Nullam tempor, lacus vel sagittis pretium, eros erat finibus neque, non convallis est dui eget erat. Sed ante augue, condimentum vitae mollis et, vehicula ac tortor. Suspendisse egestas erat velit, in accumsan ex commodo eu. Ut faucibus, tortor quis condimentum mollis, ligula metus pretium est, et bibendum nisi magna quis dolor. Morbi finibus sodales scelerisque. Aliquam erat volutpat.
+Sources:
 
+https://ic.globaliia.org/pages/default.aspx
 
-
-Maecenas at ligula tempus, lacinia quam eu, mollis ligula. Curabitur vel quam massa. Mauris interdum libero a tellus lacinia, vel ornare nisl consequat. Vivamus condimentum elementum quam ut ullamcorper. Integer sed justo ac lectus lacinia mollis quis ac elit. Aenean imperdiet orci turpis, quis semper quam ultricies sed. Nunc consectetur malesuada felis ut lobortis. Suspendisse lacinia ut ipsum vel rhoncus. Donec ac quam imperdiet, sodales tellus sit amet, luctus libero. Nam eu facilisis tellus. Sed mauris lorem, fringilla eu augue sed, maximus rutrum elit. Morbi vel accumsan tellus.
-
-
-
-Curabitur vehicula erat nisi, id tempor leo rhoncus aliquet. Nam feugiat, mauris nec vulputate malesuada, sapien elit pretium sapien, eget vehicula metus erat vel diam. Fusce id enim eu mi malesuada blandit. Ut urna felis, scelerisque viverra bibendum sollicitudin, rhoncus a magna. Aenean hendrerit elit vel mattis dignissim. Fusce sed pretium diam, vel condimentum quam. Pellentesque placerat eleifend mauris. Proin quis egestas nulla, ac volutpat libero. Donec eleifend ac nisi in porta. Fusce id urna arcu. Quisque ut ligula ac risus imperdiet dictum vitae eget justo. Morbi diam tortor, venenatis a congue ac, aliquet vitae velit. Suspendisse laoreet aliquam elit vel venenatis. Donec non efficitur sem.
+https://global.theiia.org/edu-events/Pages/The-IIA-International-Conference.aspx
