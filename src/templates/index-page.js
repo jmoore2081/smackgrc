@@ -78,10 +78,10 @@ export const IndexPageTemplate = ({
         </Fade>
       </div>
     </div>
-    <div className="bg-pink-500 text-white-100 py-24">
+    <div className="bg-sea-500 text-white-100 py-24">
       <div className="container mx-auto">
         <div className="mx-auto max-w-3xl p-4 pb-24">
-          <h3 className="font-semibold text-2xl mb-4 text-yellow-500 after-border-yellow">
+          <h3 className="font-semibold text-2xl mb-4 text-white-500 after-border-white">
             {heading}
           </h3>
           <p>{description}</p>

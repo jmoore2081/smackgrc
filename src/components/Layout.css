@@ -63,10 +63,12 @@ h6 {
   background-attachment: fixed;
 }
 
+.after-border-white,
 .after-border-yellow,
 .after-border-grey {
   position: relative;
 }
+.after-border-white:after,
 .after-border-yellow:after,
 .after-border-grey:after {
   content: "";
@@ -76,8 +78,11 @@ h6 {
   width: 60%;
   height: 2px;
 }
+.after-border-white:after {
+  @apply bg-white-300;
+}
 .after-border-yellow:after {
-  @apply bg-yellow-500;
+  @apply bg-yellow-300;
 }
 .after-border-grey:after {
   @apply bg-grey-500;
