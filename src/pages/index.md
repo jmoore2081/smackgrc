@@ -18,36 +18,31 @@ mainpitch:
     SMACK provides a powerful solution to manage your GRC requirements making
     those in risk, compliance and controls more efficient and effective in their
     positions. Created by risk, audit and compliance professionals, we began
-    with the most important feature - Reporting. SMACK included powerful,
-    dynamic multi-dimensional reporting. As professionals in this field, we knew
-    we had to get the reporting right or nothing else would really matter. SMACK
-    makes it easy for you to get the data you need from system to drive
-    insightful perspectives of your risk and control environment that will be
-    useful to you in your role and also to a broad range of stakeholders. 
+    with the most important feature - Reporting. Powerful, dynamic
+    multi-dimensional reporting. As professionals in this field, we knew we had
+    to get the reporting right or nothing else would really matter. SMACK makes
+    it easy for you to get the data you need from system to attain insightful
+    understanding of your risk and control environment that will be valuable to
+    you in your role and also to a broad range of stakeholders. 
 
     Besides being the most customizable (more on this below) and powerful
     solution in the industry, it is also the highest value offering in the
     industry. There are no separate or additional charges for additional
-    modules. All modules are included. Furthermore, you can buy the SMACK app
-    rather than "pay-as-go" like a traditional SaaS pricing model. It still
-    lives in the cloud and all you have to pay for ongoing is the Quick Base
-    platform. 
-description: >
-  Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque
-  pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit
-  posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel
-  diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a
-  egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa
-  vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam
-  vehicula dolor.
-
-  Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque
-  pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit
-  posuere. Praesent volutpat scelerisque erat vitae pellentesque. Vivamus vel
-  diam eget enim ultricies finibus ac at nisl. Morbi dictum consequat lacus, a
-  egestas tellus sodales et. Etiam consequat purus condimentum, porttitor massa
-  vitae, molestie arcu. Vestibulum leo orci, mollis eget quam sit amet, aliquam
-  vehicula dolor.
+    modules. All modules are included. Furthermore, you can outright buy the
+    SMACK application rather than "pay-as-go" like a traditional SaaS pricing
+    model. It still lives in the cloud and the only ongoing cost you have is for
+    the Quick Base platform. 
+description: >-
+  SMACK is built on the popular Quick Base platform which is used by more than
+  half of the Fortune 100. Because SMACK is built on Quick Base, you will have
+  full control to customize SMACK for your unique requirements. This is not only
+  includes your own branding and colors, but also reports, fields, values,
+  automation and notifications. You can also add whole new modules to SMACK
+  quickly and easily. If you are saavy enough to build a fancy spreadsheet,
+  chances are you can pick up Quick Base in no time. The Quick Base University,
+  online resources and the plethora or Quick Base consultants out there can help
+  you acheive your vision if for some reason there is functionality you want to
+  add to SMACK.
 intro:
   blurbs:
     - title: 2-3 week implementation time
