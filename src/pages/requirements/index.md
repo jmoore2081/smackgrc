@@ -8,9 +8,10 @@ mainDescription: >-
 image: /img/undraw_setup_analytics_8qkl.png
 heading: Requirements for GRC
 description: >-
-  No matter whether you are trying to achieve compliance with SOX, PCI DSS, NERC
-  CIP, Data Privacy Laws, NIST or any other standard, SMACK Powered by Quick
-  Base will meet your needs. 
+  No matter whether you are trying to achieve compliance with SOX, PCI DSS,
+  GDPR, NIST or any other standard, SMACK Powered by Quick Base will meet your
+  needs, helping you to ensure that your requirements are well managed and
+  compliance position clearly understood.
 intro:
   blurbs:
     - title: 'Sarbanes Oxley, SOX'
