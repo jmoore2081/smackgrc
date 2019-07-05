@@ -1,6 +1,7 @@
-import React, { useState } from "react";
+import React, { useState, useContext, useEffect } from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
+import ThemeContext from "../../context/theme-context";
 
 function encode(data) {
   return Object.keys(data)
@@ -10,6 +11,11 @@ function encode(data) {
 
 export default function Index(){
   const [formData, setFormData] = useState({});
+  const theme = useContext(ThemeContext);
+
+  useEffect(() => {
+    theme.setColor('green');
+  }, [])
 
   function handleChange(e) {
     formData[e.target.name] = e.target.value;
