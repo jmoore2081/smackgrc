@@ -8,7 +8,7 @@ const Footer = class extends React.Component {
     return (
       <footer className="pt-24 pb-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
         <div className="container m-auto md:flex justify-between align-middle">
-          <div className="content text-center w-full md:w-1/4">
+          <div className="text-center w-full md:w-1/4">
             <img
               src={logo}
               alt="SMACK GRC"

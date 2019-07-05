@@ -15,7 +15,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   }, [])
 
   return (
-    <section className="container mx-auto py-12">
+    <section className="container mx-auto py-12 px-4 md:px-0">
       <h2 className="title is-size-3 font-bold is-bold-light">{title}</h2>
       <PageContent className="content" content={content} />
     </section>

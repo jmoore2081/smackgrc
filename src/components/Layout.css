@@ -53,6 +53,9 @@ h6 {
 .content p {
   @apply my-2;
 }
+.content a {
+  @apply text-yellow-700 underline;
+}
 
 .landing-page-main-bg {
   background-image: url("../img/landing-page-main-bg.jpg");
@@ -78,4 +81,8 @@ h6 {
 }
 .after-border-grey:after {
   @apply bg-grey-500;
+}
+
+iframe {
+  max-width:100%;
 }
