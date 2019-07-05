@@ -1,28 +1,29 @@
 ---
-templateKey: 'about-page'
-path: /about
+templateKey: about-page
 title: About SMACK GRC
 ---
-## Security 
+## Security
+
+For information about Quick Base Security, Privacy, Compliance, and SOC 1, SOC 2, HIPAA and CSA reporting please refer here.
 
 https://www.quickbase.com/security-and-compliance
- 
-For information about Quick Base Security, Privacy, Compliance, and SOC 1, SOC 2, HIPAA and CSA reporting please refer here.
+
+
 Also, Quick Base's Cloud Security Alliance CAIQ is available for download from the CSA Star Registry
- 
+
 ## Quick Base
 
 Quick Base is a tool that empowers business users to quickly create their own custom software, without code, to improve daily operations and get things done faster. 
 
 Quick Base Core Capabilities:
 
-- Creation and management of forms
-- Data integration & collection
-- Data aggregation & reporting
-- Workflow automation
-- Touch-friendly mobile-optimized apps
-- Granular access
-- permissions by role
+* Creation and management of forms
+* Data integration & collection
+* Data aggregation & reporting
+* Workflow automation
+* Touch-friendly mobile-optimized apps
+* Granular access
+* permissions by role
 
 Those closest to the business can build and update apps fast in response to shifting business needs.
 
@@ -33,7 +34,7 @@ Make app creation and updating fast & affordable.
 Thousands of businesses are using Quick Base.
 
 Half of the Fortune 100 companies use Quick Base. 
- 
+
 ### What is Quick Base
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qTuKCkQ9z3w?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -46,28 +47,29 @@ Half of the Fortune 100 companies use Quick Base.
 ## Training
 
 Training can be provided remotely via web conference and screen share or in-person at your location. Training also offered at Park City, Utah, USA or at your preferred global location. 
- 
+
 Additionally, you will have access to all Quick Base related resources including Quick Base University, a fantastic community of Quick Base power users, Quick Base webinars, videos and other events. 
- 
+
 ## Pricing
 
-Straightforward transparent high-value pricing is important to us. The app itself costs USD10,000 annually, plus the platform cost of Quick Base which can be found here: https://www.quickbase.com/pricing
+Straightforward transparent high-value pricing is important to us. You can outright purchase the app it for USD10,000. Your only ongoing cost is for the Quick Base platform which we discount for you. There are also subscription options if you would rather pay for SMACK on a monthly or annual basis. 
 
-Please note that the user account minimums do not apply when purchasing SMACK GRC. Start with just one user or 1000+.
+Subscription purchase options require a one-time small separate charge for implementation and initial product training for key users.
 
-There is an additional charge for initial product setup and training of key users (one-time only, required) 
+Quick Base user account minimums do not apply when purchasing SMACK GRC. Start with just one user or 1000+.
 
-*All Quick Base plans include unlimited case-based support, plus access to the Quick Base community forum and online support documentation
- 
+All Quick Base plans include unlimited case-based support, plus access to the Quick Base community forum and online support documentation
+
 ## Support
 
 All Quick Base plans include unlimited case-based support, plus access to the Quick Base community and online support documentation
-Support for SMACK is also provided on an as needed basis via the SMACK GRC app. 
+Additional support for SMACK is also provided on an as needed basis via the SMACK GRC app. 
 
 Purchase of initial product training is required for key users(one-time only).
- 
+
 ## Contact Us
+
 Request screenshare demo. We can usually meet with you within 48-72 hours of receiving your request. Please include 2-3 available meeting times. 
-Email
+Email: info@smackgrc.com
 
 Phone: 855-249-5655
