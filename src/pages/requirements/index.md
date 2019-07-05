@@ -1,18 +1,23 @@
 ---
 templateKey: requirements-page
 title: SMACK GRC Requirements
-mainDescription: No matter whether you are trying to achieve compliance with SOX, PCI DSS, NERC
-  CIP, Data Privacy Laws, NIST or any other standard, SMACK Powered by Quick
-  Base will meet your needs.
+mainDescription: >-
+  No matter whether you are trying to achieve compliance with SOX, PCI DSS,
+  GDPR, NIST or any other standard, SMACK Powered by Quick Base will meet your
+  needs, helping you to ensure that your requirements are well managed and
+  compliance position clearly understood.
 image: /img/undraw_setup_analytics_8qkl.png
 heading: Requirements for GRC
 description: >-
-  No matter whether you are trying to achieve compliance with SOX, PCI DSS, NERC
-  CIP, Data Privacy Laws, NIST or any other standard, SMACK Powered by Quick
-  Base will meet your needs. 
+  No matter whether you are trying to achieve compliance with SOX, PCI DSS,
+  GDPR, NIST or any other standard, SMACK Powered by Quick Base will meet your
+  needs, helping you to ensure that your requirements are well managed and
+  compliance position clearly understood.
 intro:
   blurbs:
-    - text: >-
+    - title: 'Sarbanes Oxley, SOX'
+      image: /img/undraw_business_analytics_l92d.png
+      text: >-
         * SOX has evolved over the last number of years as the regulators,
         businesses and auditors have matured. Never has it been more important
         to ensure that evidence for the operation of controls is clear. 
@@ -26,9 +31,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: 'Sarbanes Oxley, SOX'
+    - title: 'Data Privacy, GDPR, HIPAA'
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Data Privacy laws are becoming ever more complex as each jurisdiction
         puts their own version of data privacy laws and consequences for
         breaches in place. Just check out the latest Baker McKenzie 2018 Global
@@ -49,9 +54,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: 'Data Privacy, GDPR, HIPAA'
+    - title: PCI DSS
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * PCI compliance is not easy to achieve with the breadth of more than
         200 required controls. 
 
@@ -76,9 +81,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: PCI DSS
+    - title: '           Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO 27001, ISO 27002, etc.'
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Keeping track of the existence and operation of cyber controls has
         never been more important. 
 
@@ -98,23 +103,21 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: '           Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO 27001, ISO 27002, etc.'
-      image: /img/undraw_business_analytics_l92d.png
   heading: Requirements
   description: All modules included in all plans. No extra charge for additional modules
 main:
   heading: Highly configurable and flexible requirements solution
   description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
-    fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
-    massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi
-    tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et
-    tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod,
-    nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales
-    magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin
-    nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
-    rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
-    at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
-full_image: /img/ben-den-engelsen-1543021-unsplash.jpg
+    SMACK is built on the popular Quick Base platform which is used by more than
+    half of the Fortune 100. Because SMACK is built on Quick Base, you will have
+    full control to customize SMACK for your unique requirements. This is not
+    only includes your own branding and colors, but also reports, fields,
+    values, automation and notifications. You can also add whole new modules to
+    SMACK quickly and easily. If you are saavy enough to build a fancy
+    spreadsheet, chances are you can pick up Quick Base in no time. The Quick
+    Base University, online resources and the abundance of Quick Base
+    consultants out there can help you achieve your vision if by chance there is
+    functionality you want to add to SMACK. SMACK is also fast to implement,
+    includes powerful dynamic reporting and is the #1 value in the industry.
 ---
 
