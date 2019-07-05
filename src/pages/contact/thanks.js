@@ -3,7 +3,7 @@ import Layout from '../../components/Layout'
 
 export default () => (
   <Layout>
-    <section className="section py-12">
+    <section className="section py-12 p-4 md:p-0">
       <div className="container m-auto">
         <div className="content">
           <h1>Thank you!</h1>

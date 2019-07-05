@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { navigate } from "gatsby-link";
 import Layout from "../../components/Layout";
 
@@ -8,17 +8,16 @@ function encode(data) {
     .join("&");
 }
 
-export default class Index extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = { isValidated: false };
+export default function Index(){
+  const [formData, setFormData] = useState({});
+
+  function handleChange(e) {
+    formData[e.target.name] = e.target.value;
+    const newFormData = {...formData};
+    setFormData(newFormData);
   }
 
-  handleChange = e => {
-    this.setState({ [e.target.name]: e.target.value });
-  };
-
-  handleSubmit = e => {
+  function handleSubmit(e){
     e.preventDefault();
     const form = e.target;
     fetch("/", {
@@ -26,18 +25,17 @@ export default class Index extends React.Component {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({
         "form-name": form.getAttribute("name"),
-        ...this.state
+        ...formData
       })
     })
       .then(() => navigate(form.getAttribute("action")))
       .catch(error => alert(error));
-  };
+  }
 
-  render() {
-    return (
-      <Layout>
+  return (
+    <Layout>
         <section className="section py-12">
-          <div className="container m-auto">
+          <div className="container m-auto p-4 md:p-0">
             <div className="content flex flex-wrap">
               <div className="w-full md:w-1/3">
                 <h1>Schedule a Demo</h1>
@@ -53,7 +51,7 @@ export default class Index extends React.Component {
                   action="/contact/thanks/"
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
-                  onSubmit={this.handleSubmit}
+                  onSubmit={handleSubmit}
                   className="mt-4 py-4 px-8 shadow-lg rounded"
                 >
                   {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
@@ -61,7 +59,7 @@ export default class Index extends React.Component {
                   <div hidden>
                     <label>
                       Don’t fill this out:{" "}
-                      <input name="bot-field" onChange={this.handleChange} />
+                      <input name="bot-field" onChange={handleChange} />
                     </label>
                   </div>
                   <div className="md:flex md:items-center mb-6">
@@ -78,7 +76,7 @@ export default class Index extends React.Component {
                         className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"text"}
                         name={"name"}
-                        onChange={this.handleChange}
+                        onChange={handleChange}
                         id={"name"}
                         placeholder={"John Doe"}
                         required={true}
@@ -99,7 +97,7 @@ export default class Index extends React.Component {
                         className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"email"}
                         name={"email"}
-                        onChange={this.handleChange}
+                        onChange={handleChange}
                         id={"email"}
                         placeholder={"john@gmail.com"}
                         required={true}
@@ -120,7 +118,7 @@ export default class Index extends React.Component {
                         className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"phone"}
                         name={"phone"}
-                        onChange={this.handleChange}
+                        onChange={handleChange}
                         id={"phone"}
                         placeholder={"111-222-3333"}
                         required={true}
@@ -140,7 +138,7 @@ export default class Index extends React.Component {
                       <textarea
                         className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         name={"contact_time"}
-                        onChange={this.handleChange}
+                        onChange={handleChange}
                         id={"contact_time"}
                         placeholder={"Morning/afternoon/evening"}
                         required={true}
@@ -163,6 +161,5 @@ export default class Index extends React.Component {
           </div>
         </section>
       </Layout>
-    );
-  }
+  )
 }
