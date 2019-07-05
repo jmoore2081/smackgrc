@@ -42,7 +42,8 @@ description: >-
   chances are you can pick up Quick Base in no time. The Quick Base University,
   online resources and the plethora or Quick Base consultants out there can help
   you acheive your vision if for some reason there is functionality you want to
-  add to SMACK.
+  add to SMACK. SMACK is also fast to implement, includes powerful dynamic
+  reporting and is the #1 value in the industry. 
 intro:
   blurbs:
     - title: 2-3 week implementation time
