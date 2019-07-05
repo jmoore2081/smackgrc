@@ -1,7 +1,7 @@
 ---
 templateKey: blog-post
 title: International IIA Conference
-date: 2019-05-21T22:47:55.131Z
+date: 2019-07-05T22:47:55.131Z
 description: Visit us in Anaheim!
 featuredpost: true
 featuredimage: /img/2019-socal-slider-location.jpg
