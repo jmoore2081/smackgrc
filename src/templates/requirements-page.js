@@ -18,27 +18,28 @@ export const RequirementsPageTemplate = ({
   main
 }) => {
   const theme = useContext(ThemeContext);
-  
+  const themeColor = 'orange';
+
   useEffect(() => {
-    theme.setColor('orange');
-  }, [])
+    theme.setColor(themeColor);
+  }, []);
 
   return (
     <div className="content">
-      <div className="w-full flex flex-wrap items-center bg-orange-500 py-12 angle-clip-bottom">
+      <div className={`w-full flex flex-wrap items-center bg-${themeColor}-500 py-12 angle-clip-bottom px-4 md:px-0`}>
         <div className="container m-auto flex flex-wrap">
-          <div className="w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
+          <div className="w-full md:w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
             <h1 className="font-bold text-xl">{title}</h1>
             <p>{mainDescription}</p>
           </div>
-          <div className="w-1/2">
+          <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
-              <Img fluid={image.childImageSharp.fluid} alt="GRC Requirements" />
+              <Img fluid={image.childImageSharp.fluid} alt="GRC Solutions" />
             </Fade>
           </div>
         </div>
       </div>
-      <section className="section pt-12 section--gradient">
+      <section className="section pt-12 px-4 md:px-0">
         <div className="container m-auto">
           <div className="section">
             <div>
