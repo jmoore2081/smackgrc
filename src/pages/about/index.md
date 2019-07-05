@@ -46,6 +46,8 @@ Half of the Fortune 100 companies use Quick Base.
  
 ## Training
 
+## Training
+
 Training can be provided remotely via web conference and screen share or in-person at your location. Training also offered at Park City, Utah, USA or at your preferred global location. 
 
 Additionally, you will have access to all Quick Base related resources including Quick Base University, a fantastic community of Quick Base power users, Quick Base webinars, videos and other events. 
