@@ -17,10 +17,21 @@ mainpitch:
   description: >-
     SMACK provides a powerful solution to manage your GRC requirements making
     those in risk, compliance and controls more efficient and effective in their
-    positions. It is the highest value offering in the industry, especially when
-    compared to other applications offering similar features. Additionally,
-    there are no separate or additional charges for additional modules. All
-    modules are included. 
+    positions. Created by risk, audit and compliance professionals, we began
+    with the most important feature - Reporting. SMACK included powerful,
+    dynamic multi-dimensional reporting. As professionals in this field, we knew
+    we had to get the reporting right or nothing else would really matter. SMACK
+    makes it easy for you to get the data you need from system to drive
+    insightful perspectives of your risk and control environment that will be
+    useful to you in your role and also to a broad range of stakeholders. 
+
+    Besides being the most customizable (more on this below) and powerful
+    solution in the industry, it is also the highest value offering in the
+    industry. There are no separate or additional charges for additional
+    modules. All modules are included. Furthermore, you can buy the SMACK app
+    rather than "pay-as-go" like a traditional SaaS pricing model. It still
+    lives in the cloud and all you have to pay for ongoing is the Quick Base
+    platform. 
 description: >
   Fusce neque libero, molestie id dolor sed, aliquam varius nibh. Pellentesque
   pharetra et est quis consectetur. Nunc mattis nisi non purus hendrerit
