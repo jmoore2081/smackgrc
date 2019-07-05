@@ -40,8 +40,8 @@ description: >-
   automation and notifications. You can also add whole new modules to SMACK
   quickly and easily. If you are saavy enough to build a fancy spreadsheet,
   chances are you can pick up Quick Base in no time. The Quick Base University,
-  online resources and the plethora or Quick Base consultants out there can help
-  you acheive your vision if for some reason there is functionality you want to
+  online resources and the abundance of Quick Base consultants out there can
+  help you achieve your vision if by chance there is functionality you want to
   add to SMACK. SMACK is also fast to implement, includes powerful dynamic
   reporting and is the #1 value in the industry. 
 intro:
