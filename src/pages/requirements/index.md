@@ -30,7 +30,7 @@ intro:
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: 'Sarbanes Oxley, SOX'
-      image: /img/undraw_all_the_data_h4ki.png
+      image: /img/undraw_finance_0bdk.png
     - text: >-
         * Data Privacy laws are becoming ever more complex as each jurisdiction
         puts their own version of data privacy laws and consequences for
