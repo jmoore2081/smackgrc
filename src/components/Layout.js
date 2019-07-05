@@ -45,6 +45,7 @@ const TemplateWrapper = ({ children }) => {
         <meta property="og:title" content={title} />
         <meta property="og:url" content="/" />
         <meta property="og:image" content="/img/og-image.jpg" />
+        <meta name="google-site-verification" content="a1oGJpcMFY8vlA1K4YckBzsE-4DV1Xg7x6Fpctr6c98" />
       </Helmet>
       <div className={`bg-${theme.color}-500`}>
         <Navbar />
