@@ -37,19 +37,19 @@ const Footer = class extends React.Component {
             </div>
           </div>
           <div className="md:ml-6 md:flex md:flex-wrap md:items-center text-center">
-            <Link className="text-white-500 px-4 block md:inline-block" to="/solutions">
+            <Link className="text-white-500 px-4 block md:inline-block" to="/solutions/">
               Solutions
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/requirements">
+            <Link className="text-white-500 px-4 block md:inline-block" to="/requirements/">
               Requirements
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/about">
+            <Link className="text-white-500 px-4 block md:inline-block" to="/about/">
               About
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/blog">
+            <Link className="text-white-500 px-4 block md:inline-block" to="/blog/">
               Blog
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/contact">
+            <Link className="text-white-500 px-4 block md:inline-block" to="/contact/">
               Schedule a Demo
             </Link>
           </div>

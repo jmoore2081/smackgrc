@@ -59,25 +59,25 @@ const Navbar = class extends React.Component {
             <div className="text-left w-full md:w-auto">
               <Link
                 className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
-                to="/solutions"
+                to="/solutions/"
               >
                 Solutions
               </Link>
               <Link
                 className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
-                to="/requirements"
+                to="/requirements/"
               >
                 GRC Requirements
               </Link>
               <Link
                 className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
-                to="/about"
+                to="/about/"
               >
                 About
               </Link>
               <Link
                 className="block md:inline-block py-3 md:py-0 px-4 font-hairline leading-loose text-white-500 w-full md:w-auto"
-                to="/blog"
+                to="/blog/"
               >
                 Blog
               </Link>
@@ -91,7 +91,7 @@ const Navbar = class extends React.Component {
             <div className="text-right">
               <Link
                 className="px-4 py-4 font-hairline leading-loose text-white-500 flex items-center"
-                to="/contact"
+                to="/contact/"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

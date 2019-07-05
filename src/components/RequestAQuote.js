@@ -15,7 +15,7 @@ function RequestAQuote() {
         <p className="mt-12">
           <Link
             className="block md:inline-block mt-6 py-4 px-6 shadow-md rounded bg-yellow-500 hover:bg-yellow-600 text-yellow-100 font-semibold uppercase"
-            to="/contact"
+            to="/contact/"
           >
             Request a Demo
           </Link>
