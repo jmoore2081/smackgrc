@@ -34,7 +34,9 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`block w-full md:w-auto md:flex md:items-start px-6 bg-${theme.color}-600 md:bg-${theme.color}-500 ${navBarActiveClass}`}
+          className={`block w-full md:w-auto md:flex md:items-start px-6 bg-${
+            theme.color
+          }-600 md:bg-${theme.color}-500 ${navBarActiveClass}`}
         >
           <div className="text-left w-full md:w-auto">
             <Link
@@ -64,7 +66,9 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`flex md:flex justify-center items-end flex-grow md:justify-end md:pl-6 bg-${theme.color}-700 md:bg-${theme.color}-500 ${navBarActiveClass}`}
+          className={`flex md:flex justify-center items-end flex-grow md:justify-end md:pl-6 bg-${
+            theme.color
+          }-700 md:bg-${theme.color}-500 ${navBarActiveClass}`}
         >
           <div className="text-right">
             <Link
@@ -112,4 +116,3 @@ export default function Navbar() {
     </nav>
   );
 }
-

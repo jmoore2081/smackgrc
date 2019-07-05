@@ -5,6 +5,7 @@ import Helmet from 'react-helmet'
 import { graphql, Link } from 'gatsby'
 import Layout from '../components/Layout'
 import Content, { HTMLContent } from '../components/Content'
+import RequestAQuote from '../components/RequestAQuote';
 
 export const BlogPostTemplate = ({
   content,
@@ -17,9 +18,9 @@ export const BlogPostTemplate = ({
   const PostContent = contentComponent || Content
 
   return (
-    <section className="section py-12">
+    <section className="pt-12">
       {helmet || ''}
-      <div className="container m-auto content">
+      <div className="container m-auto mb-12 content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
             <h1 className="title is-size-2 font-bold is-bold-light">
@@ -42,6 +43,7 @@ export const BlogPostTemplate = ({
           </div>
         </div>
       </div>
+      <RequestAQuote />
     </section>
   )
 }

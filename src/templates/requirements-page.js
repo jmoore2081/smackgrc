@@ -18,16 +18,18 @@ export const RequirementsPageTemplate = ({
   main
 }) => {
   const theme = useContext(ThemeContext);
-  const themeColor = 'orange';
+  const themeColor = "orange";
 
   useEffect(() => {
     theme.setColor(themeColor);
   }, []);
 
   return (
-    <div className="content">
-      <div className={`w-full flex flex-wrap items-center bg-${themeColor}-500 py-12 angle-clip-bottom px-4 md:px-0`}>
-        <div className="container m-auto flex flex-wrap">
+    <div>
+      <div
+        className={`w-full flex flex-wrap items-center bg-${themeColor}-500 py-12 angle-clip-bottom px-4 md:px-0`}
+      >
+        <div className="container m-auto flex flex-wrap content">
           <div className="w-full md:w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
             <h1 className="font-bold text-xl">{title}</h1>
             <p>{mainDescription}</p>
@@ -39,19 +41,17 @@ export const RequirementsPageTemplate = ({
           </div>
         </div>
       </div>
-      <section className="section pt-12 px-4 md:px-0">
+      <section className="mb-12 pt-12 px-4 md:px-0">
         <div className="container m-auto">
-          <div className="section">
-            <div>
-              <h3 className="font-semibold">{heading}</h3>
-              <p>{description}</p>
-            </div>
-            <div>
-              <Features gridItems={intro.blurbs} />
-              <div className="pt-12">
-                <h3 className="font-semibold">{main.heading}</h3>
-                <p>{main.description}</p>
-              </div>
+          <div>
+            <h3 className="font-semibold">{heading}</h3>
+            <p>{description}</p>
+          </div>
+          <div>
+            <Features gridItems={intro.blurbs} />
+            <div className="pt-12">
+              <h3 className="font-semibold">{main.heading}</h3>
+              <p>{main.description}</p>
             </div>
           </div>
         </div>

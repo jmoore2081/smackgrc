@@ -6,7 +6,7 @@ import logo from "../img/logo-quickbase-light.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="pt-24 pb-12 mt-12 bg-grey-500 text-white-500 angle-clip-top">
+      <footer className="pt-12 pb-12 bg-grey-500 text-white-500">
         <div className="container m-auto md:flex justify-between align-middle">
           <div className="text-center w-full md:w-1/4">
             <img
