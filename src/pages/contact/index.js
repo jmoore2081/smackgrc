@@ -75,7 +75,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"text"}
                         name={"name"}
                         onChange={this.handleChange}
@@ -96,7 +96,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"email"}
                         name={"email"}
                         onChange={this.handleChange}
@@ -117,7 +117,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         type={"phone"}
                         name={"phone"}
                         onChange={this.handleChange}
@@ -138,7 +138,7 @@ export default class Index extends React.Component {
                     </div>
                     <div className="md:w-2/3">
                       <textarea
-                        className="shadow appearance-none border border-grey-400 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                         name={"contact_time"}
                         onChange={this.handleChange}
                         id={"contact_time"}
