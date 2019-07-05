@@ -7,7 +7,7 @@ const Navbar = class extends React.Component {
     super(props);
     this.state = {
       active: false,
-      navBarActiveClass: ""
+      navBarActiveClass: "hidden md:visible"
     };
   }
 
@@ -22,10 +22,10 @@ const Navbar = class extends React.Component {
         // set the class in state for the navbar accordingly
         this.state.active
           ? this.setState({
-              navBarActiveClass: "hidden md:visible"
+              navBarActiveClass: "visible md:visible"
             })
           : this.setState({
-              navBarActiveClass: "visible md:visible"
+              navBarActiveClass: "hidden md:visible"
             });
       }
     );
@@ -35,7 +35,7 @@ const Navbar = class extends React.Component {
     return (
       <nav role="navigation" aria-label="main-navigation">
         <div className="container m-auto py-6 flex flex-wrap justify-start items-center">
-          <div className=" w-full md:w-auto flex">
+          <div className="w-full md:w-auto flex">
             <Link to="/" className="py-2" title="SMACK GRC Logo">
               <img src={logo} alt="SMACK GRC" style={{ width: "188px" }} />
             </Link>

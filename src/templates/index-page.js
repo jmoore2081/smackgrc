@@ -28,7 +28,7 @@ export const IndexPageTemplate = ({
   }, [])
   return (
   <div>
-    <div className="mt-0 angle-clip-bottom bg-yellow-500 text-white-100">
+    <div className="mt-0 angle-clip-bottom bg-yellow-500 text-white-100 px-4 md:px-0">
       <div className="container py-24 m-auto flex flex-wrap">
         <div className="mx-auto w-full md:w-1/2 md:mx-0">
           <h1>
@@ -42,7 +42,7 @@ export const IndexPageTemplate = ({
             {button.map(({ buttonText, buttonLink }) => {
               return (
                 <Link
-                  className="block md:inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-500 text-sea-600 font-semibold hover:text-sea-100"
+                  className="inline-block mr-3 py-4 px-6 shadow-md rounded bg-white-100 hover:bg-sea-500 text-sea-600 font-semibold hover:text-sea-100"
                   to={withPrefix(buttonLink)}
                   key={buttonText}
                 >
@@ -91,7 +91,7 @@ export const IndexPageTemplate = ({
         </div>
       </div>
     </div>
-    <div className="container mx-auto pt-24 pb-12">
+    <div className="container mx-auto pt-24 pb-12 px-4 md:px-0">
       <div className="text-center">
         <h3 className="text-2xl uppercase after-border-grey mb-4 inline-block">
           {demoCallout.title}
