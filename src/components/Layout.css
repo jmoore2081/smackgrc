@@ -54,7 +54,7 @@ h6 {
   @apply my-2;
 }
 .content a {
-  @apply text-yellow-700 underline;
+  @apply underline;
 }
 
 .landing-page-main-bg {

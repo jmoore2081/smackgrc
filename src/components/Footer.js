@@ -37,9 +37,6 @@ const Footer = class extends React.Component {
             </div>
           </div>
           <div className="md:ml-6 md:flex md:flex-wrap md:items-center text-center">
-            <Link to="/" className="text-white-500 px-4 block md:inline-block">
-              Home
-            </Link>
             <Link className="text-white-500 px-4 block md:inline-block" to="/solutions">
               Solutions
             </Link>
@@ -48,6 +45,9 @@ const Footer = class extends React.Component {
             </Link>
             <Link className="text-white-500 px-4 block md:inline-block" to="/about">
               About
+            </Link>
+            <Link className="text-white-500 px-4 block md:inline-block" to="/blog">
+              Blog
             </Link>
             <Link className="text-white-500 px-4 block md:inline-block" to="/contact">
               Schedule a Demo
