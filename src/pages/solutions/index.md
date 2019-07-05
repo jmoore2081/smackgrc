@@ -7,7 +7,9 @@ heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
   blurbs:
-    - text: >-
+    - title: Controls Management
+      image: /img/undraw_business_analytics_l92d.png
+      text: >-
         * Configurable control notifications. You may not want to send control
         notifications to all users at the same frequency, or at all. Control
         Notifications are fully configurable for new, open and overdue controls.
@@ -26,9 +28,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: Controls Management
+    - title: Risk Management
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Track and manage your organizations' risks
 
         * Use risk assessments for Projects, Audits, Controls, Observations and
@@ -48,9 +50,9 @@ intro:
         * Send a survey to risk owners to get their feedback on identified
         risks, update risk scores, etc. (Functionality coming soon, or quickly
         build your own)
-      title: Risk Management
+    - title: Audit and Project Management
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Task and Time management
 
         * Assign users tasks and allocate time and easily see users availability
@@ -73,9 +75,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to audit and project management. It is easy to add new fields, add
         to or change the functionality according to your organizations' needs
-      title: Audit and Project Management
+    - title: Issue/Action Management
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Assign actions to anyone with an email address. They do not need to be
         a QB user.
 
@@ -94,9 +96,9 @@ intro:
         and reports. See Issues and Actions by location, regulatory requirement,
         vendor profile, system profile, OU profile, control domain, etc. Build
         your own custom reports.
-      title: Issue/Action Management
+    - title: Controls Assessment Management
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Assign Controls Assessments to anyone with an email address. They do
         not need to be a QB user.
 
@@ -115,9 +117,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: Controls Assessment Management
+    - title: Vendor Management
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
+      text: >-
         * Send Vendor Control Assessments to anyone with an email address. They
         do not need to be a QB user.
 
@@ -139,22 +141,21 @@ intro:
 
         * Track System and Vendor metadata including criticality, CIA
         attributes, etc.
-      title: Vendor Management
-      image: /img/undraw_business_analytics_l92d.png
   heading: Solutions
   description: All modules included in all plans. No extra charge for additional modules
 main:
   heading: Highly configurable and flexible solutions
-  description: >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque
-    fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar
-    massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi
-    tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et
-    tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod,
-    nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales
-    magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin
-    nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo
-    rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada
-    at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
+  description: >-
+    SMACK is built on the popular Quick Base platform which is used by more than
+    half of the Fortune 100. Because SMACK is built on Quick Base, you will have
+    full control to customize SMACK for your unique requirements. This is not
+    only includes your own branding and colors, but also reports, fields,
+    values, automation and notifications. You can also add whole new modules to
+    SMACK quickly and easily. If you are saavy enough to build a fancy
+    spreadsheet, chances are you can pick up Quick Base in no time. The Quick
+    Base University, online resources and the abundance of Quick Base
+    consultants out there can help you achieve your vision if by chance there is
+    functionality you want to add to SMACK. SMACK is also fast to implement,
+    includes powerful dynamic reporting and is the #1 value in the industry.
 ---
 
