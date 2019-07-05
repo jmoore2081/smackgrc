@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import { Link } from "gatsby";
 import logo from "../img/logo-white.svg";
+import ThemeContext from "../context/theme-context";
 
 export default function Navbar() {
   const [navBarActiveClass, setNavBarActiveClass] = useState(
@@ -8,25 +9,22 @@ export default function Navbar() {
   );
   const [active, setActive] = useState(false);
 
-  function toggleHamburger() {
-    setActive(!active);
-  }
-
   useEffect(() => {
     setNavBarActiveClass(active ? "visible md:visible" : "hidden md:visible");
   }, [active]);
 
+  const theme = useContext(ThemeContext);
+
   return (
     <nav role="navigation" aria-label="main-navigation">
-      <div className="container m-auto py-6 flex flex-wrap justify-start items-center">
-        <div className="w-full md:w-auto flex">
+      <div className="container m-auto md:py-6 flex flex-wrap justify-start items-center">
+        <div className="w-full md:w-auto flex p-4 md:p-0">
           <Link to="/" className="py-2" title="SMACK GRC Logo">
             <img src={logo} alt="SMACK GRC" style={{ width: "188px" }} />
           </Link>
-          {/* Hamburger menu */}
           <div
-            className={`visible md:hidden w-1/2 my-3 pr-6 text-white-100 flex flex-wrap justify-end items-center`}
-            onClick={() => toggleHamburger()}
+            className={`visible md:hidden w-1/2 my-3 text-white-100 flex flex-wrap justify-end items-center`}
+            onClick={() => setActive(!active)}
           >
             <div className="w-1/6 mr-2">
               <span className="block border rounded bg-white-100 border-white-100 my-1 w-full" />
@@ -36,7 +34,7 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`block w-full md:w-auto md:flex md:items-start px-6 ${navBarActiveClass}`}
+          className={`block w-full md:w-auto md:flex md:items-start px-6 bg-${theme.color}-600 md:bg-${theme.color}-500 ${navBarActiveClass}`}
         >
           <div className="text-left w-full md:w-auto">
             <Link
@@ -66,7 +64,7 @@ export default function Navbar() {
           </div>
         </div>
         <div
-          className={`flex md:flex justify-center items-end flex-grow md:justify-end md:pl-6 ${navBarActiveClass}`}
+          className={`flex md:flex justify-center items-end flex-grow md:justify-end md:pl-6 bg-${theme.color}-700 md:bg-${theme.color}-500 ${navBarActiveClass}`}
         >
           <div className="text-right">
             <Link
