@@ -15,9 +15,7 @@ description: >-
   compliance position clearly understood.
 intro:
   blurbs:
-    - title: 'Sarbanes Oxley, SOX'
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+    - text: >-
         * SOX has evolved over the last number of years as the regulators,
         businesses and auditors have matured. Never has it been more important
         to ensure that evidence for the operation of controls is clear. 
@@ -31,9 +29,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-    - title: 'Data Privacy, GDPR, HIPAA'
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: 'Sarbanes Oxley, SOX'
+      image: /img/undraw_all_the_data_h4ki.png
+    - text: >-
         * Data Privacy laws are becoming ever more complex as each jurisdiction
         puts their own version of data privacy laws and consequences for
         breaches in place. Just check out the latest Baker McKenzie 2018 Global
@@ -54,9 +52,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-    - title: PCI DSS
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: 'Data Privacy, GDPR, HIPAA'
+      image: /img/undraw_safe_bnk7.png
+    - text: >-
         * PCI compliance is not easy to achieve with the breadth of more than
         200 required controls. 
 
@@ -81,9 +79,9 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-    - title: '           Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO 27001, ISO 27002, etc.'
-      image: /img/undraw_business_analytics_l92d.png
-      text: >-
+      title: PCI DSS
+      image: /img/undraw_security_o890.png
+    - text: >-
         * Keeping track of the existence and operation of cyber controls has
         never been more important. 
 
@@ -103,6 +101,10 @@ intro:
         * Fully customizable. Each organization has different needs when it
         comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
+      title: >-
+        Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO
+        27001, ISO 27002, etc.
+      image: /img/undraw_authentication_fsn5.png
   heading: Requirements
   description: All modules included in all plans. No extra charge for additional modules
 main:
