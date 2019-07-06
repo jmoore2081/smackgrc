@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { kebabCase } from "lodash";
 import Helmet from "react-helmet";
@@ -7,6 +7,7 @@ import Layout from "../components/Layout";
 import Content, { HTMLContent } from "../components/Content";
 import RequestAQuote from "../components/RequestAQuote";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
+import ThemeContext from "../context/theme-context";
 
 export const BlogPostTemplate = ({
   content,
@@ -18,6 +19,12 @@ export const BlogPostTemplate = ({
   helmet
 }) => {
   const PostContent = contentComponent || Content;
+
+  const theme = useContext(ThemeContext);
+
+  useEffect(() => {
+    theme.setColor('sea');
+  }, [])
 
   return (
     <section>
