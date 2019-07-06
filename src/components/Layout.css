@@ -42,7 +42,7 @@ h6 {
 }
 .content ul,
 .content ol {
-  @apply ml-3;
+  @apply ml-6;
 }
 .content ul {
   @apply list-outside list-disc;

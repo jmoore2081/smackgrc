@@ -6,6 +6,7 @@ import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
 import { HTMLContent, MakeHTMLContent } from "../components/Content";
 import ThemeContext from "../context/theme-context";
+import RequestAQuote from "../components/RequestAQuote";
 
 export const AboutPageTemplate = ({
   title,
@@ -32,7 +33,7 @@ export const AboutPageTemplate = ({
         <div className="container m-auto flex flex-wrap content">
           <div className="w-full md:w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
             <h1 className="font-bold text-xl">{title}</h1>
-            <p>{mainDescription}</p>
+            <MakeHTMLContent content={mainDescription} />
           </div>
           <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
@@ -43,24 +44,28 @@ export const AboutPageTemplate = ({
       </div>
       {sections.map(section => {
         return (
-          <div key={section.text}>
-            <div className={`bg-${section.background_color}-500 text-${section.text_color}-500 py-24`}>
+          <div key={section.title}>
+            <div
+              className={`bg-${section.background_color}-500 text-${
+                section.text_color
+              }-500 py-24`}
+            >
               <div
-                className={`container m-auto flex flex-wrap ${
-                  section.left_or_right === "right" ? "flex-row-reverse" : ""
+                className={`container m-auto flex px-4 md:px-0 flex-wrap ${
+                  section.left_or_right === "left" ? "flex-row-reverse" : ""
                 }`}
               >
-                <div className="w-full md:w-1/2 md:px-8 md:pt-4">
-                  <h3 className="text-3xl">{section.title}</h3>
-                  <MakeHTMLContent className="content" content={section.text} />
-                </div>
-                <div className="w-full md:w-1/2 md:px-8">
+                <div className="w-full md:w-1/2 md:px-8 mb-4 md:mb-0">
                   <Fade bottom>
                     <Img
                       fluid={section.image.childImageSharp.fluid}
                       alt={section.title}
                     />
                   </Fade>
+                </div>
+                <div className="w-full md:w-1/2 md:px-8 md:pt-4">
+                  <h3 className="text-3xl">{section.title}</h3>
+                  <MakeHTMLContent className="content" content={section.text} />
                 </div>
               </div>
             </div>
@@ -70,6 +75,7 @@ export const AboutPageTemplate = ({
       {/* <section className="container mx-auto py-12 px-4 md:px-0">
         <PageContent className="content" content={content} />
       </section> */}
+      <RequestAQuote />
     </div>
   );
 };
