@@ -4,7 +4,7 @@ import { graphql } from "gatsby";
 import Img from "gatsby-image";
 import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
-import Content, { HTMLContent, MakeHTMLContent } from "../components/Content";
+import { HTMLContent, MakeHTMLContent } from "../components/Content";
 import ThemeContext from "../context/theme-context";
 
 export const AboutPageTemplate = ({
@@ -12,10 +12,10 @@ export const AboutPageTemplate = ({
   mainDescription,
   sections,
   image,
-  content,
+  // content,
   contentComponent
 }) => {
-  const PageContent = contentComponent || Content;
+  // const PageContent = contentComponent || Content;
 
   const theme = useContext(ThemeContext);
   const themeColor = "blue";
