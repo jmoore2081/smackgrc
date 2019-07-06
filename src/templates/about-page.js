@@ -27,7 +27,7 @@ export const AboutPageTemplate = ({
   return (
     <div>
       <div
-        className={`w-full flex flex-wrap items-center bg-${themeColor}-500 py-12 angle-clip-bottom px-4 md:px-0`}
+        className={`w-full flex flex-wrap items-center bg-${themeColor}-500 py-12 angle-clip-bottom px-4 md:mb-12 md:px-0`}
       >
         <div className="container m-auto flex flex-wrap content">
           <div className="w-full md:w-1/2 pt-8 pr-0 md:pr-16 text-white-100">
@@ -44,7 +44,7 @@ export const AboutPageTemplate = ({
       {sections.map(section => {
         return (
           <div key={section.text}>
-            <div className={`bg-${section.background_color}-500 text-${section.text_color}-500 py-12`}>
+            <div className={`bg-${section.background_color}-500 text-${section.text_color}-500 py-24`}>
               <div
                 className={`container m-auto flex flex-wrap ${
                   section.left_or_right === "right" ? "flex-row-reverse" : ""
