@@ -31,7 +31,7 @@ sections:
     title: Security
     image: /img/undraw_security_o890.png
     text_color: grey
-  - background_color: blue
+  - background_color: green
     left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
