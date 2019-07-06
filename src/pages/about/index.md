@@ -90,7 +90,7 @@ sections:
       name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim"
       width="400" height="225"></iframe>
     title: Quick Base
-    image: /img/1809_qbpartner_logo_rgb_vertical.png
+    image: /img/smack_logo_rgb_qb-colour.png
     text_color: white
   - background_color: yellow
     left_or_right: right
