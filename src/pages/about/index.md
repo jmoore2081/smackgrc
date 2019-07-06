@@ -6,7 +6,9 @@ mainDescription: >-
   flexible, easy to use solution to GRC needs
 image: /img/undraw_data_xmfy.png
 sections:
-  - text: >-
+  - background_color: white
+    left_or_right: left
+    text: >-
       For information about Quick Base Security, Privacy, Compliance, and SOC 1,
       SOC 2, HIPAA and CSA reporting please refer here.
 
@@ -18,7 +20,10 @@ sections:
       from the CSA Star Registry
     title: Security
     image: /img/undraw_security_o890.png
-  - text: >-
+    text_color: grey
+  - background_color: blue
+    left_or_right: right
+    text: >-
       Quick Base is a tool that empowers business users to quickly create their
       own custom software, without code, to improve daily operations and get
       things done faster. 
@@ -76,6 +81,7 @@ sections:
       width="400" height="225"></iframe>
     title: Quick Base
     image: /img/1809_qbpartner_logo_rgb_vertical.png
+    text_color: white
 ---
 ## Training
 
