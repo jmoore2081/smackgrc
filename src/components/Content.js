@@ -1,8 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import marked from "marked"
 
 export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
+)
+
+export const MakeHTMLContent = ({ content, className }) => (
+  <div className={className} dangerouslySetInnerHTML={{ __html: marked(content) }} />
 )
 
 const Content = ({ content, className }) => (

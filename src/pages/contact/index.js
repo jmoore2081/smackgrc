@@ -43,14 +43,14 @@ export default function Index(){
         <section className="section py-12">
           <div className="container m-auto p-4 md:p-0">
             <div className="content flex flex-wrap">
-              <div className="w-full md:w-1/3">
+              <div className="w-full md:w-2/5 pr-8">
                 <h1>Schedule a Demo</h1>
                 <p>
                   Thank you for your interest in SMACK GRC. Submit this form and
                   we'll get in touch very soon.
                 </p>
               </div>
-              <div className="w-full md:w-2/3">
+              <div className="w-full md:w-3/5">
                 <form
                   name="schedule_a_demo"
                   method="post"
@@ -58,7 +58,7 @@ export default function Index(){
                   data-netlify="true"
                   data-netlify-honeypot="bot-field"
                   onSubmit={handleSubmit}
-                  className="mt-4 py-4 px-8 shadow-lg rounded"
+                  className="mt-4 py-4 px-8 shadow-lg rounded-lg bg-white-100"
                 >
                   {/* The `form-name` hidden field is required to support form submissions without JavaScript */}
                   <input type="hidden" name="form-name" value="contact" />

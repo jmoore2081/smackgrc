@@ -108,6 +108,22 @@ collections:
               default: "about-page",
             }
           - { label: "Title", name: "title", widget: "string" }
+          - { label: Main description, name: mainDescription, widget: markdown }
+          - { label: Image, name: image, widget: image }
+          - {
+              label: Content Sections,
+              name: sections,
+              widget: list,
+              fields:
+                [
+                  { label: Image, name: image, widget: image },
+                  { label: Title, name: title, widget: string },
+                  { label: Text, name: text, widget: markdown },
+                  { label: Image left or right, name: left_or_right, widget: select, options: ['left', 'right'] },
+                  { label: Background color, name: background_color, widget: select, options: ['yellow','orange','pink','sea','blue','green','grey','white'] },
+                  { label: Text color, name: text_color, widget: select, options: ['yellow','orange','pink','sea','blue','green','grey','white'] },
+                ],
+              }
           - { label: "Body", name: "body", widget: "markdown" }
       - file: "src/pages/solutions/index.md"
         label: "Solutions Page"

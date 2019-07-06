@@ -3,8 +3,8 @@ templateKey: about-page
 title: About SMACK GRC
 mainDescription: >-
   SMACK GRC was created by Jeff Moore after noticing a need in the market for a
-  flexible, easy to use solution to GRC needs
-image: /img/undraw_data_xmfy.png
+  flexible, easy to use solution to GRC needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam scelerisque fringilla nibh at scelerisque. Praesent efficitur erat sem, in pulvinar massa pulvinar sit amet. Suspendisse potenti. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aliquam et tempor nulla, eu porta nibh. Nam consectetur, neque quis tincidunt euismod, nulla sapien mollis diam, vel posuere ligula elit vitae quam. Cras sodales magna consectetur, interdum augue sit amet, viverra libero. Sed sollicitudin nibh ac est pretium ultrices. Nulla faucibus posuere elit, quis interdum leo rutrum ac. Fusce consequat pellentesque neque, ut maximus mauris malesuada at. Donec laoreet porta est, eu rhoncus purus imperdiet eget.
+image: /img/undraw_dashboard_nklg-blue-bg.png
 sections:
   - background_color: white
     left_or_right: left

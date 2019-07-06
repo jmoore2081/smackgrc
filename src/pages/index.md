@@ -13,7 +13,7 @@ button:
     buttonText: GRC Requirements
 mainpitch:
   title: Why SMACK GRC
-  image: /img/computer-screenshot-1.png
+  image: /img/computer-screenshot-1.jpg
   description: >-
     SMACK provides a powerful solution to manage your GRC requirements making
     those in risk, compliance and controls more efficient and effective in their
