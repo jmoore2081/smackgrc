@@ -9,11 +9,9 @@ const Footer = class extends React.Component {
       <footer className="pt-12 pb-12 bg-grey-500 text-white-500">
         <div className="container m-auto md:flex justify-between align-middle">
           <div className="text-center w-full md:w-1/4">
-            <img
-              src={logo}
-              alt="SMACK GRC"
-              className="mx-auto"
-            />
+            <Link to="/">
+              <img src={logo} alt="SMACK GRC" className="mx-auto" />
+            </Link>
             <div>
               <a
                 className="px-4 py-4 font-hairline leading-loose text-white-500 flex items-center justify-center"
@@ -37,19 +35,34 @@ const Footer = class extends React.Component {
             </div>
           </div>
           <div className="md:ml-6 md:flex md:flex-wrap md:items-center text-center">
-            <Link className="text-white-500 px-4 block md:inline-block" to="/solutions/">
+            <Link
+              className="text-white-500 px-4 block md:inline-block"
+              to="/solutions/"
+            >
               Solutions
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/requirements/">
+            <Link
+              className="text-white-500 px-4 block md:inline-block"
+              to="/requirements/"
+            >
               Requirements
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/about/">
+            <Link
+              className="text-white-500 px-4 block md:inline-block"
+              to="/about/"
+            >
               About
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/blog/">
+            <Link
+              className="text-white-500 px-4 block md:inline-block"
+              to="/blog/"
+            >
               Blog
             </Link>
-            <Link className="text-white-500 px-4 block md:inline-block" to="/contact/">
+            <Link
+              className="text-white-500 px-4 block md:inline-block"
+              to="/contact/"
+            >
               Schedule a Demo
             </Link>
           </div>
