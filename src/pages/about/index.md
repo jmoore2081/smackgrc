@@ -17,7 +17,7 @@ mainDescription: >-
 image: /img/undraw_dashboard_nklg-blue-bg.png
 sections:
   - background_color: white
-    left_or_right: left
+    left_or_right: right
     text: >-
       For information about Quick Base Security, Privacy, Compliance, and SOC 1,
       SOC 2, HIPAA and CSA reporting please refer here.
@@ -32,7 +32,7 @@ sections:
     image: /img/undraw_security_o890.png
     text_color: grey
   - background_color: blue
-    left_or_right: right
+    left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
       own custom software, without code, to improve daily operations and get
@@ -93,7 +93,7 @@ sections:
     image: /img/1809_qbpartner_logo_rgb_vertical.png
     text_color: white
   - background_color: yellow
-    left_or_right: left
+    left_or_right: right
     text: >-
       Training can be provided remotely via web conference and screen share or
       in-person at your location. Training also offered at Park City, Utah, USA
@@ -107,7 +107,7 @@ sections:
     image: /img/undraw_business_plan_5i9d.png
     text_color: white
   - background_color: white
-    left_or_right: right
+    left_or_right: left
     text: >-
       Straightforward transparent high-value pricing is important to us. You can
       outright purchase the app it for USD10,000. Your only ongoing cost is for
@@ -127,10 +127,10 @@ sections:
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community forum and online support documentation
     title: Pricing
-    image: /img/undraw_Data_points_ubvs.png
+    image: /img/undraw_Savings_dwkw.png
     text_color: grey
   - background_color: pink
-    left_or_right: left
+    left_or_right: right
     text: >-
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community and online support documentation
@@ -142,10 +142,10 @@ sections:
       Purchase of initial product training is required for key users(one-time
       only).
     title: Support
-    image: /img/undraw_code_review_l1q9.png
+    image: /img/undraw_active_support_6rwo.png
     text_color: white
   - background_color: white
-    left_or_right: right
+    left_or_right: left
     text: >-
       Request screenshare demo. We can usually meet with you within 48-72 hours
       of receiving your request. Please include 2-3 available meeting times.
@@ -156,7 +156,7 @@ sections:
 
       Phone: 855-249-5655
     title: Contact Us
-    image: /img/undraw_authentication_fsn5.png
+    image: /img/undraw_contact_us_15o2.png
     text_color: grey
 ---
 test
