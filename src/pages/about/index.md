@@ -18,42 +18,65 @@ sections:
       from the CSA Star Registry
     title: Security
     image: /img/undraw_security_o890.png
+  - text: >-
+      Quick Base is a tool that empowers business users to quickly create their
+      own custom software, without code, to improve daily operations and get
+      things done faster. 
+
+
+      Quick Base Core Capabilities:
+
+
+      * Creation and management of forms
+
+      * Data integration & collection
+
+      * Data aggregation & reporting
+
+      * Workflow automation
+
+      * Touch-friendly mobile-optimized apps
+
+      * Granular access
+
+      * permissions by role
+
+
+      Those closest to the business can build and update apps fast in response
+      to shifting business needs.
+
+
+      Improve operational efficiency & accelerate business growth.
+
+
+      Make app creation and updating fast & affordable.
+
+
+      Thousands of businesses are using Quick Base.
+
+
+      Half of the Fortune 100 companies use Quick Base. 
+
+
+      ### What is Quick Base
+
+
+      <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/qTuKCkQ9z3w?rel=0" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
+
+
+      ### How Quick Base works
+
+
+      <iframe allowtransparency="true" title="Wistia video player"
+      allowFullscreen frameborder="0" scrolling="no" class="wistia_embed"
+      name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim"
+      width="400" height="225"></iframe>
+    title: Quick Base
+    image: /img/1809_qbpartner_logo_rgb_vertical.png
 ---
-## Quick Base
-
-Quick Base is a tool that empowers business users to quickly create their own custom software, without code, to improve daily operations and get things done faster. 
-
-Quick Base Core Capabilities:
-
-* Creation and management of forms
-* Data integration & collection
-* Data aggregation & reporting
-* Workflow automation
-* Touch-friendly mobile-optimized apps
-* Granular access
-* permissions by role
-
-Those closest to the business can build and update apps fast in response to shifting business needs.
-
-Improve operational efficiency & accelerate business growth.
-
-Make app creation and updating fast & affordable.
-
-Thousands of businesses are using Quick Base.
-
-Half of the Fortune 100 companies use Quick Base. 
-
-### What is Quick Base
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qTuKCkQ9z3w?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
- 
-### How Quick Base works
-
-<iframe allowtransparency="true" title="Wistia video player" allowFullscreen frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim" width="400" height="225"></iframe>
- 
- 
-## Training
-
 ## Training
 
 Training can be provided remotely via web conference and screen share or in-person at your location. Training also offered at Park City, Utah, USA or at your preferred global location. 
