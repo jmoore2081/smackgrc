@@ -67,9 +67,9 @@ export const AboutPageTemplate = ({
           </div>
         );
       })}
-      <section className="container mx-auto py-12 px-4 md:px-0">
+      {/* <section className="container mx-auto py-12 px-4 md:px-0">
         <PageContent className="content" content={content} />
-      </section>
+      </section> */}
     </div>
   );
 };
