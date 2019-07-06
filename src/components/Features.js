@@ -10,7 +10,7 @@ const FeatureGrid = ({ gridItems }) => (
     {gridItems.map(item => {
       return (
         <Fade key={item.text} bottom>
-          <div className="p-4 w-full md:w-1/2">
+          <div className="p-4 w-full md:w-1/2 content">
             <div className="px-8 py-12 h-full rounded bg-white-100 text-grey-700 shadow-lg overflow-hidden border border-white-300">
               <div
                 style={{
