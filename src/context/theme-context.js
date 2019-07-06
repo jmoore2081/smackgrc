@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const defaultState = {
-  color: "",
+  color: "grey",
   setColor: () => {}
 };
 
@@ -10,7 +10,7 @@ const ThemeContext = React.createContext(defaultState);
 
 class ThemeProvider extends React.Component {
   state = {
-    color: ""
+    color: "grey"
   };
 
   componentDidMount() {}

@@ -69,9 +69,9 @@ export default function Index(){
                     </label>
                   </div>
                   <div className="md:flex md:items-center mb-6">
-                    <div className="md:w-1/3">
+                    <div className="md:w-1/3 md:pr-6">
                       <label
-                        className="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-grey-400 font-bold md:text-right mb-1 md:mb-0 pr-4"
                         htmlFor={"name"}
                       >
                         Your name
@@ -79,7 +79,7 @@ export default function Index(){
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-grey-100 appearance-none border-2 border-grey-100 rounded w-full py-2 px-4 text-grey-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
                         type={"text"}
                         name={"name"}
                         onChange={handleChange}
@@ -90,9 +90,9 @@ export default function Index(){
                     </div>
                   </div>
                   <div className="md:flex md:items-center mb-6">
-                    <div className="md:w-1/3">
+                    <div className="md:w-1/3 md:pr-6">
                       <label
-                        className="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-grey-400 font-bold md:text-right mb-1 md:mb-0 pr-4"
                         htmlFor={"email"}
                       >
                         Email
@@ -100,7 +100,7 @@ export default function Index(){
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-grey-100 appearance-none border-2 border-grey-100 rounded w-full py-2 px-4 text-grey-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
                         type={"email"}
                         name={"email"}
                         onChange={handleChange}
@@ -111,9 +111,9 @@ export default function Index(){
                     </div>
                   </div>
                   <div className="md:flex md:items-center mb-6">
-                    <div className="md:w-1/3">
+                    <div className="md:w-1/3 md:pr-6">
                       <label
-                        className="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-grey-400 font-bold md:text-right mb-1 md:mb-0 pr-4"
                         htmlFor={"phone"}
                       >
                         Phone Number
@@ -121,7 +121,7 @@ export default function Index(){
                     </div>
                     <div className="md:w-2/3">
                       <input
-                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-grey-100 appearance-none border-2 border-grey-100 rounded w-full py-2 px-4 text-grey-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
                         type={"phone"}
                         name={"phone"}
                         onChange={handleChange}
@@ -132,21 +132,22 @@ export default function Index(){
                     </div>
                   </div>
                   <div className="md:flex md:items-center mb-6">
-                    <div className="md:w-1/3">
+                    <div className="md:w-1/3 md:pr-6">
                       <label
-                        className="block text-gray-700 text-sm font-bold mb-2"
+                        className="block text-grey-400 font-bold md:text-right mb-1 md:mb-0 pr-4"
                         htmlFor={"contact_time"}
                       >
-                        Best time of day to contact
+                        Please list 3 options for contact times
                       </label>
                     </div>
                     <div className="md:w-2/3">
                       <textarea
-                        className="shadow appearance-none border border-grey-300 rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                        className="bg-grey-100 appearance-none border-2 border-grey-100 rounded w-full py-2 px-4 text-grey-700 leading-tight focus:outline-none focus:bg-white focus:border-yellow-500"
                         name={"contact_time"}
                         onChange={handleChange}
+                        rows="3"
                         id={"contact_time"}
-                        placeholder={"Morning/afternoon/evening"}
+                        placeholder={"Wednesday at 3PM PST\nThursday at 1PM PST\nFriday at 4PM PST"}
                         required={true}
                       />
                     </div>
