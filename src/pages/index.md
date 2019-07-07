@@ -72,7 +72,7 @@ intro:
         with no need for coding or IT assistance. Custom app development has
         never been easier than with Quick Base.
       title: Fully customizable by you without the need of a developer
-      image: /img/undraw_process_e90d.png
+      image: /img/undraw_code_review_l1q9.png
   heading: Heading
   description: description
 demoCallout:
