@@ -4,7 +4,7 @@ title: International IIA Conference
 date: 2019-07-05T22:47:55.131Z
 description: Visit us in Anaheim!
 featuredpost: true
-featuredimage: /img/2019-socal-slider-location.jpg
+featuredimage: /img/2019-socal-slider-location-large.jpg
 tags:
   - IIA International Conference 2019
 ---
