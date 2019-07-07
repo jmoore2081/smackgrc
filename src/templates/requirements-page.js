@@ -1,12 +1,12 @@
 import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
 import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
 import Features from "../components/Features";
 import RequestAQuote from "../components/RequestAQuote";
 import ThemeContext from "../context/theme-context";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const RequirementsPageTemplate = ({
   image,
@@ -36,7 +36,7 @@ export const RequirementsPageTemplate = ({
           </div>
           <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
-              <Img fluid={image.childImageSharp.fluid} alt="GRC Solutions" />
+              <PreviewCompatibleImage imageInfo={{image}} alt="GRC Requirements" />
             </Fade>
           </div>
         </div>

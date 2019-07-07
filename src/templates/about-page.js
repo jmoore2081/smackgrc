@@ -1,12 +1,12 @@
 import React, { useContext, useEffect } from "react";
 import PropTypes from "prop-types";
 import { graphql } from "gatsby";
-import Img from "gatsby-image";
 import Fade from "react-reveal/Fade";
 import Layout from "../components/Layout";
-import { HTMLContent, MakeHTMLContent } from "../components/Content";
+import { MakeHTMLContent } from "../components/Content";
 import ThemeContext from "../context/theme-context";
 import RequestAQuote from "../components/RequestAQuote";
+import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 export const AboutPageTemplate = ({
   title,
@@ -14,7 +14,7 @@ export const AboutPageTemplate = ({
   sections,
   image,
   // content,
-  contentComponent
+  // contentComponent
 }) => {
   // const PageContent = contentComponent || Content;
 
@@ -37,7 +37,7 @@ export const AboutPageTemplate = ({
           </div>
           <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
-              <Img fluid={image.childImageSharp.fluid} alt="GRC Solutions" />
+              <PreviewCompatibleImage imageInfo={{image}} alt="About SMACK GRC" />
             </Fade>
           </div>
         </div>
@@ -46,9 +46,7 @@ export const AboutPageTemplate = ({
         return (
           <div key={section.title}>
             <div
-              className={`bg-${section.background_color}-500 text-${
-                section.text_color
-              }-500 py-24`}
+              className={`bg-${section.background_color}-500 text-${section.text_color}-500 py-24`}
             >
               <div
                 className={`container m-auto flex px-4 md:px-0 flex-wrap ${
@@ -57,8 +55,8 @@ export const AboutPageTemplate = ({
               >
                 <div className="w-full md:w-1/2 md:px-8 mb-4 md:mb-0">
                   <Fade bottom>
-                    <Img
-                      fluid={section.image.childImageSharp.fluid}
+                    <PreviewCompatibleImage
+                      imageInfo={{ image: section.image }}
                       alt={section.title}
                     />
                   </Fade>
@@ -85,7 +83,7 @@ AboutPageTemplate.propTypes = {
   mainDescription: PropTypes.string,
   sections: PropTypes.array,
   content: PropTypes.string,
-  contentComponent: PropTypes.func
+  // contentComponent: PropTypes.func
 };
 
 const AboutPage = ({ data }) => {
@@ -94,7 +92,7 @@ const AboutPage = ({ data }) => {
   return (
     <Layout>
       <AboutPageTemplate
-        contentComponent={HTMLContent}
+        // contentComponent={HTMLContent}
         title={post.frontmatter.title}
         mainDescription={post.frontmatter.mainDescription}
         sections={post.frontmatter.sections}

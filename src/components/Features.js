@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import marked from "marked";
 import Fade from "react-reveal/Fade";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
-import { HTMLContent } from "../components/Content";
+import { MakeHTMLContent } from "../components/Content";
 
 const FeatureGrid = ({ gridItems }) => (
   <div className="flex flex-wrap container mx-auto items-stretch">
@@ -21,7 +21,7 @@ const FeatureGrid = ({ gridItems }) => (
                 <PreviewCompatibleImage imageInfo={item} />
               </div>
               <h3 className="text-xl mb-2">{item.title}</h3>
-              <HTMLContent content={marked(item.text)} />
+              <MakeHTMLContent content={marked(item.text)} />
             </div>
           </div>
         </Fade>

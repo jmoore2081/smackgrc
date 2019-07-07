@@ -6,7 +6,7 @@ export const HTMLContent = ({ content, className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: content }} />
 )
 
-export const MakeHTMLContent = ({ content, className }) => (
+export const MakeHTMLContent = ({ content = '', className }) => (
   <div className={className} dangerouslySetInnerHTML={{ __html: marked(content) }} />
 )
 
