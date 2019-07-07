@@ -11,7 +11,6 @@ import professor from "../img/professor.svg";
 import ThemeContext from "../context/theme-context";
 
 export const IndexPageTemplate = ({
-  image,
   title,
   heading,
   subheading,
@@ -26,6 +25,7 @@ export const IndexPageTemplate = ({
   useEffect(() => {
     theme.setColor('yellow');
   }, [])
+  
   return (
   <div>
     <div className="mt-0 angle-clip-bottom bg-yellow-500 text-white-100 px-4 md:px-0">
@@ -111,7 +111,6 @@ export const IndexPageTemplate = ({
 )};
 
 IndexPageTemplate.propTypes = {
-  image: PropTypes.oneOfType([PropTypes.object, PropTypes.string]),
   title: PropTypes.string,
   heading: PropTypes.string,
   button: PropTypes.array,
@@ -130,7 +129,6 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <IndexPageTemplate
-        image={frontmatter.image}
         title={frontmatter.title}
         heading={frontmatter.heading}
         subheading={frontmatter.subheading}
@@ -159,13 +157,6 @@ export const pageQuery = graphql`
     markdownRemark(frontmatter: { templateKey: { eq: "index-page" } }) {
       frontmatter {
         title
-        image {
-          childImageSharp {
-            fluid(maxWidth: 2048, quality: 100) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
         heading
         subheading
         button {
