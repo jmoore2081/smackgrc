@@ -7,18 +7,9 @@ mainDescription: >-
   10+ years and never having found a GRC software that had all the functionality
   he needed, Jeff set off to create his own application that he could use in his
   organization and also to share with the Risk, Compliance and Audit community.
-  Primary functionality that was key for SMACK: 
-
-
-  * Notifications - SMACK GRC helps organizations stay compliant with various
-  standards and regulations by notifying control and action assignees
-  periodically when their controls and actions are due. 
-
-  * Controls Assessments/surveys - can be used by auditors, control owners or
-  3rd parties to quickly assess controls.
-
-  * Dynamic, flexible reporting - an application is only as valuable as the
-  understanding that can be gathered from it.
+  Primary functionality that was key for SMACK included notifications, controls
+  assessments/surveys and dynamic flexible reporting in addition to being
+  high-value and affordable for even the smallest of teams and organizations.
 image: /img/undraw_dashboard_nklg-blue-bg.png
 sections:
   - background_color: white
