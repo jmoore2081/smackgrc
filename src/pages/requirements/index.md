@@ -115,7 +115,7 @@ main:
     full control to customize SMACK for your unique requirements. This is not
     only includes your own branding and colors, but also reports, fields,
     drop-down values, automation and notifications. You can also add whole new
-    modules to SMACK quickly and easily. If you are saavy enough to build a
+    modules to SMACK quickly and easily. If you are savvy enough to build a
     fancy spreadsheet, chances are you can pick up Quick Base in no time. The
     Quick Base University, online resources and the abundance of Quick Base
     consultants out there can help you achieve your vision if by chance there is
