@@ -26,12 +26,12 @@ mainpitch:
     you in your role and also to a broad range of stakeholders. 
 
     Besides being the most customizable (more on this below) and powerful
-    solution in the industry, it is also the highest value offering in the
-    industry. There are no separate or additional charges for additional
-    modules. All modules are included. Furthermore, you can outright buy the
-    SMACK application rather than "pay-as-go" like a traditional SaaS pricing
-    model. It still lives in the cloud and the only ongoing cost you have is for
-    the Quick Base platform. 
+    solution in the industry, it is also the highest value offering. There are
+    no separate or additional charges for additional modules. All modules are
+    included. Furthermore, you can outright buy the SMACK application rather
+    than "pay-as-go" like a traditional SaaS pricing model. It still lives in
+    the cloud and the only ongoing cost you have is for the Quick Base
+    platform. 
 description: >-
   SMACK is built on the popular Quick Base platform which is used by more than
   half of the Fortune 100. Because SMACK is built on Quick Base, you will have
