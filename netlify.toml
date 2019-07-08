@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm run build"
+  command = "node --max_old_space_size=4096 ./node_modules/.bin/gatsby build"
   functions = "lambda"
 [build.environment]
   YARN_VERSION = "1.9.4"
