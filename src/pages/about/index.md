@@ -4,12 +4,13 @@ title: About SMACK GRC
 mainDescription: >-
   SMACK GRC was created by Jeff Moore after noticing a need in the market for a
   flexible, easy to use solution to GRC needs. Having been in the industry for
-  10+ years and never having found a GRC software that had all the functionality
-  he needed, Jeff set off to create his own application that he could use in his
-  organization and also to share with the Risk, Compliance and Audit community.
-  Primary functionality that was key for SMACK included notifications, controls
-  assessments/surveys and dynamic flexible reporting in addition to being
-  high-value and affordable for even the smallest of teams and organizations.
+  10+ years and never having found a GRC application that had all the
+  functionality he needed, Jeff set off to create his own system that he could
+  use for his organizations and also to share with the Risk, Compliance and
+  Audit community. Primary functionality that was key for SMACK included
+  notifications, controls assessments/surveys and dynamic flexible reporting in
+  addition to being high-value and affordable for even the smallest of teams and
+  organizations.
 image: /img/undraw_dashboard_nklg-blue-bg.png
 sections:
   - background_color: white
