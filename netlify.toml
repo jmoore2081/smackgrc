@@ -6,7 +6,7 @@
   YARN_VERSION = "1.9.4"
   YARN_FLAGS = "--no-ignore-optional"
 [[redirects]]
-  from = "https://smackgrc.netlify.com"
-  to = "https://smackgrc.com"
+  from = "https://smackgrc.netlify.com/*"
+  to = "https://smackgrc.com/:splat"
   status = 301
   force = true
