@@ -3,7 +3,7 @@ for = "/static/*"
 [headers.values]
 Cache-Control = "public, max-age=360000"
 [[redirects]]
-  from = "https://smackgrc.netlify.com/*"
-  to = "https://smackgrc.com/:splat"
+  from = "https://smackgrc.netlify.com"
+  to = "https://smackgrc.com"
   status = 301
   force = true
