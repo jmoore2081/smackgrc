@@ -2,8 +2,3 @@
 for = "/static/*"
 [headers.values]
 Cache-Control = "public, max-age=360000"
-[[redirects]]
-  from = "https://smackgrc.netlify.com"
-  to = "https://smackgrc.com"
-  status = 200
-  force = true
