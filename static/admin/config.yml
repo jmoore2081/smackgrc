@@ -97,9 +97,9 @@ collections:
                   { label: "Button Text", name: buttonText, widget: string },
                 ],
             }
-      - file: "src/pages/sections/index.md"
-        label: "Sections"
-        name: "sections"
+      - file: "src/pages/about/index.md"
+        label: "About Page"
+        name: "about"
         fields:
           - {
               label: "Template Key",

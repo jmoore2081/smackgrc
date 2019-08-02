@@ -13,6 +13,7 @@ export const SectionsTemplate = ({
   mainDescription,
   sections,
   image,
+  image_description,
   // content,
   // contentComponent
 }) => {
@@ -37,7 +38,7 @@ export const SectionsTemplate = ({
           </div>
           <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
-              <PreviewCompatibleImage imageInfo={{image}} alt="SMACK GRC" />
+              <PreviewCompatibleImage imageInfo={{image}} alt={image_description} />
             </Fade>
           </div>
         </div>
@@ -83,6 +84,7 @@ SectionsTemplate.propTypes = {
   mainDescription: PropTypes.string,
   sections: PropTypes.array,
   content: PropTypes.string,
+  image_description: PropTypes.string,
   // contentComponent: PropTypes.func
 };
 
@@ -97,6 +99,7 @@ const Sections = ({ data }) => {
         mainDescription={post.frontmatter.mainDescription}
         sections={post.frontmatter.sections}
         image={post.frontmatter.image}
+        image_description={post.frontmatter.image_description}
         content={post.html}
       />
     </Layout>
@@ -123,6 +126,7 @@ export const SectionsQuery = graphql`
             }
           }
         }
+        image_description
         sections {
           image {
             childImageSharp {
