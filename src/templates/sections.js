@@ -37,7 +37,7 @@ export const SectionsTemplate = ({
           </div>
           <div className="w-full md:w-1/2 py-6 md:py-0">
             <Fade bottom>
-              <PreviewCompatibleImage imageInfo={{image}} alt="About SMACK GRC" />
+              <PreviewCompatibleImage imageInfo={{image}} alt="SMACK GRC" />
             </Fade>
           </div>
         </div>
