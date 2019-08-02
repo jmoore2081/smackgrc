@@ -1,5 +1,5 @@
 ---
-templateKey: about-page
+templateKey: sections
 title: About SMACK GRC
 mainDescription: >-
   SMACK GRC was created by Jeff Moore after noticing a need in the market for a
@@ -12,6 +12,7 @@ mainDescription: >-
   addition to being high-value and affordable for even the smallest of teams and
   organizations.
 image: /img/undraw_dashboard_nklg-blue-bg.png
+image_description: About SMACK GRC
 sections:
   - background_color: white
     left_or_right: right
