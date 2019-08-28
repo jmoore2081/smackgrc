@@ -15,6 +15,8 @@ image: /img/undraw_dashboard_nklg-blue-bg.png
 image_description: About SMACK GRC
 sections:
   - background_color: white
+    title: Security
+    image: /img/undraw_security_o890.png
     left_or_right: right
     text: >-
       For information about Quick Base Security, Privacy, Compliance, and SOC 1,
@@ -26,10 +28,10 @@ sections:
 
       Also, Quick Base's Cloud Security Alliance CAIQ is available for download
       from the CSA Star Registry
-    title: Security
-    image: /img/undraw_security_o890.png
     text_color: grey
   - background_color: green
+    title: Quick Base
+    image: /img/smack_logo_rgb_qb-reversed.png
     left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
@@ -87,10 +89,10 @@ sections:
       allowFullscreen frameborder="0" scrolling="no" class="wistia_embed"
       name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim"
       width="400" height="225"></iframe>
-    title: Quick Base
-    image: /img/smack_logo_rgb_qb-reversed.png
     text_color: white
   - background_color: yellow
+    title: Training
+    image: /img/undraw_business_plan_5i9d.png
     left_or_right: right
     text: >-
       Training can be provided remotely via web conference and screen share or
@@ -101,21 +103,19 @@ sections:
       Additionally, you will have access to all Quick Base related resources
       including Quick Base University, a fantastic community of Quick Base power
       users, Quick Base webinars, videos and other events.
-    title: Training
-    image: /img/undraw_business_plan_5i9d.png
     text_color: white
   - background_color: white
+    title: Pricing
+    image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
       Straightforward transparent high-value pricing is important to us. You can
-      outright purchase the app it for USD10,000. Your only ongoing cost is for
-      the Quick Base platform which we discount for you. There are also
+      outright purchase the app for an MSRP USD50,000 (no continual annual
+      charge). Discounts available for new customers, charities and
+      not-for-profit organizations. Your only ongoing cost is for the Quick Base
+      platform which we discount for you. There are also more traditional SaaS
       subscription options if you would rather pay for SMACK on a monthly or
       annual basis. 
-
-
-      Subscription purchase options require a one-time small separate charge for
-      implementation and initial product training for key users.
 
 
       Quick Base user account minimums do not apply when purchasing SMACK GRC.
@@ -124,10 +124,10 @@ sections:
 
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community forum and online support documentation
-    title: Pricing
-    image: /img/undraw_Savings_dwkw.png
     text_color: grey
   - background_color: pink
+    title: Support
+    image: /img/undraw_active_support_6rwo.png
     left_or_right: right
     text: >-
       All Quick Base plans include unlimited case-based support, plus access to
@@ -139,10 +139,10 @@ sections:
 
       Purchase of initial product training is required for key users(one-time
       only).
-    title: Support
-    image: /img/undraw_active_support_6rwo.png
     text_color: white
   - background_color: white
+    title: Contact Us
+    image: /img/undraw_contact_us_15o2.png
     left_or_right: left
     text: >-
       Request screenshare demo. We can usually meet with you within 48-72 hours
@@ -153,8 +153,6 @@ sections:
 
 
       Phone: 855-249-5655
-    title: Contact Us
-    image: /img/undraw_contact_us_15o2.png
     text_color: grey
 ---
 test
