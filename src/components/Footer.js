@@ -134,6 +134,18 @@ const Footer = class extends React.Component {
             </a>
           </div>
         </div>
+        <div className="container mx-auto mt-4 md:flex justify-center align-middle text-grey-300">
+          <p className="pr-4">&copy;{new Date().getFullYear()} SMACK GRC</p>
+          <p>
+            Site by{" "}
+            <a
+              className="no-underline hover:text-white-100"
+              href="https://bootpackdigital.com/"
+            >
+              Bootpack Digital, LLC
+            </a>
+          </p>
+        </div>
       </footer>
     );
   }
