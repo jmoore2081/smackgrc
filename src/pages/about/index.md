@@ -2,21 +2,18 @@
 templateKey: sections
 title: About SMACK GRC
 mainDescription: >-
-  SMACK GRC was created by Jeff Moore after noticing a need in the market for a
-  flexible, easy to use solution to GRC needs. Having been in the industry for
-  10+ years and never having found a GRC application that had all the
-  functionality he needed, Jeff set off to create his own system that he could
-  use for his organizations and also to share with the Risk, Compliance and
-  Audit community. Primary functionality that was key for SMACK included
-  notifications, controls assessments/surveys and dynamic flexible reporting in
-  addition to being high-value and affordable for even the smallest of teams and
-  organizations.
+  SMACK GRC was created by a team of audit, risk and compliance professionals
+  after noticing a need in the market for a flexible, easy to use solution to
+  GRC needs. Having been in the industry for many years and never having found a
+  GRC application that was satisfying the SMACK GRC team set off to create their
+  own system that could be used for their organizations and also to share with
+  the Risk, Compliance and Audit community. Offering a product with the highest
+  quality and wide reaching functionality and at a price point for organizations
+  of all sizes is the primary objective of the SMACK GRC team.
 image: /img/undraw_dashboard_nklg-blue-bg.png
 image_description: About SMACK GRC
 sections:
   - background_color: white
-    title: Security
-    image: /img/undraw_security_o890.png
     left_or_right: right
     text: >-
       For information about Quick Base Security, Privacy, Compliance, and SOC 1,
@@ -28,10 +25,10 @@ sections:
 
       Also, Quick Base's Cloud Security Alliance CAIQ is available for download
       from the CSA Star Registry
+    title: Security
+    image: /img/undraw_security_o890.png
     text_color: grey
   - background_color: green
-    title: Quick Base
-    image: /img/smack_logo_rgb_qb-reversed.png
     left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
@@ -89,10 +86,10 @@ sections:
       allowFullscreen frameborder="0" scrolling="no" class="wistia_embed"
       name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim"
       width="400" height="225"></iframe>
+    title: Quick Base
+    image: /img/smack_logo_rgb_qb-reversed.png
     text_color: white
   - background_color: yellow
-    title: Training
-    image: /img/undraw_business_plan_5i9d.png
     left_or_right: right
     text: >-
       Training can be provided remotely via web conference and screen share or
@@ -103,19 +100,28 @@ sections:
       Additionally, you will have access to all Quick Base related resources
       including Quick Base University, a fantastic community of Quick Base power
       users, Quick Base webinars, videos and other events.
+    title: Training
+    image: /img/undraw_business_plan_5i9d.png
     text_color: white
   - background_color: white
-    title: Pricing
-    image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
-      Straightforward transparent high-value pricing is important to us. You can
-      outright purchase the app for an MSRP USD50,000 (no continual annual
-      charge). Discounts available for new customers, charities and
-      not-for-profit organizations. Your only ongoing cost is for the Quick Base
-      platform which we discount for you. There are also more traditional SaaS
-      subscription options if you would rather pay for SMACK on a monthly or
-      annual basis. 
+      Straightforward transparent high-value pricing is important to us. Pricing
+      is based on the number "Power Users" which includes individuals in Audit,
+      Compliance and/or Risk Management positions. People that will be in the
+      application as part of their day to day.
+
+
+      Annual pricing tiers: 
+
+
+      Up to 5 users: USD20,000 
+
+
+      Up to 20 users: USD50,000
+
+
+      Up to 50 users: USD100,000
 
 
       Quick Base user account minimums do not apply when purchasing SMACK GRC.
@@ -124,25 +130,24 @@ sections:
 
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community forum and online support documentation
+    title: Pricing
+    image: /img/undraw_Savings_dwkw.png
     text_color: grey
   - background_color: pink
-    title: Support
-    image: /img/undraw_active_support_6rwo.png
     left_or_right: right
     text: >-
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community and online support documentation
 
-      Additional support for SMACK is also provided on an as needed basis via
-      the SMACK GRC app. 
+      Additional support for SMACK GRC is also provided on an as needed basis
+      via the SMACK GRC app. 
 
 
-      Purchase of initial product training is required for key users(one-time
-      only).
+      Purchase of initial product training is required (one-time only).
+    title: Support
+    image: /img/undraw_active_support_6rwo.png
     text_color: white
   - background_color: white
-    title: Contact Us
-    image: /img/undraw_contact_us_15o2.png
     left_or_right: left
     text: >-
       Request screenshare demo. We can usually meet with you within 48-72 hours
@@ -153,6 +158,8 @@ sections:
 
 
       Phone: 855-249-5655
+    title: Contact Us
+    image: /img/undraw_contact_us_15o2.png
     text_color: grey
 ---
 test
