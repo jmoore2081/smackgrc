@@ -13,12 +13,11 @@ mainpitch:
   title: Why SMACK GRC
   image: /img/computer-screenshot-1.jpg
   description: >-
-    SMACK GRC provides a powerful solution to manage your GRC requirements
-    making those in risk, compliance and controls more efficient and effective
-    in their positions. Created by risk, audit and compliance professionals,
-    SMACK GRC offers a product with the functionality our team has always
-    desired in a GRC tool and with a pricing model that can work for
-    organizations of all sizes. 
+    SMACK GRC provides a solution to manage your GRC requirements making those
+    in risk, compliance and controls more efficient and effective in their
+    positions. Created by risk, audit and compliance professionals, SMACK GRC
+    offers a product with the functionality our team has always desired in a GRC
+    tool and with a pricing model that can work for organizations of all sizes. 
 description: >-
   SMACK GRC is built on the popular Quick Base platform which is used by more
   than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
