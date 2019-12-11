@@ -10,20 +10,21 @@ intro:
     - text: >-
         * Configurable control notifications. You may not want to send control
         notifications to all users at the same frequency, or at all. Control
-        Notifications are fully configurable for new, open and overdue controls.
+        Notifications are fully configurable for new, open and overdue controls
+        for control operation, testing and certification.
 
         * Control Owners, Delegates and Assignees may receive notification
-        emails with links to complete their controls.
+        emails with links to complete their controls operation or certification.
 
         * Controls may be assigned to anyone with an email address. They do not
-        need to be an application user, which saves the cost of user licenses.
+        need to be an application user.
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
+        requirement, vendor or system profile, Organizational Unit, control
+        domain, etc. Build you own custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: Controls Management
@@ -39,15 +40,14 @@ intro:
         Controls, Controls Assessments, Observations and Actions. Build your own
         custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to risk management. It is easy to add new fields, add to or change
         the functionality according to your organizations' needs
 
         * Risk Survey functionality
 
         * Send a survey to risk owners to get their feedback on identified
-        risks, update risk scores, etc. (Functionality coming soon, or quickly
-        build your own)
+        risks, update risk scores, etc
       title: Risk Management
       image: /img/undraw_financial_data_es63.png
     - text: >-
@@ -64,13 +64,13 @@ intro:
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports. See Project status and findings by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build your own custom reports
+        requirement, vendor or system profile, control domain, etc. Build your
+        own custom reports
 
         * See projects on a Gantt chart, projects behind schedule, projects over
         budget based on percentage complete
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to audit and project management. It is easy to add new fields, add
         to or change the functionality according to your organizations' needs
       title: Audit and Project Management
@@ -86,14 +86,14 @@ intro:
         * Owners, Delegates and Assignees may receive notification emails with
         links to complete their actions.
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to managing issues and actions. It is easy to add new fields, add
         to or change the functionality according to your organizations' needs
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports. See Issues and Actions by location, regulatory requirement,
-        vendor profile, system profile, OU profile, control domain, etc. Build
-        your own custom reports.
+        vendor or system profile, control domain, etc. Build your own custom
+        reports.
       title: Issue/Action Management
       image: /img/undraw_bookmarks_r6up.png
     - text: >-
@@ -109,11 +109,11 @@ intro:
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
+        requirement, vendor or system profile, control domain, etc. Build you
+        own custom reports
 
-        * Fully customizable. Each organization has different needs when it
-        comes to controls management. It is easy to add new fields, add to or
+        * Fully configurable. Each organization has different needs when it
+        comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: Controls Assessment Management
       image: /img/undraw_all_the_data_h4ki.png
@@ -130,10 +130,10 @@ intro:
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
+        requirement, vendor or system profile, control domain, etc. Build you
+        own custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to vendor management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
 
@@ -146,16 +146,13 @@ intro:
 main:
   heading: Highly configurable and flexible solutions
   description: >-
-    SMACK is built on the popular Quick Base platform which is used by more than
-    half of the Fortune 100. Because SMACK is built on Quick Base, you will have
-    full control to customize SMACK for your unique requirements. This is not
-    only includes your own branding and colors, but also reports, fields,
-    drop-down values, automation and notifications. You can also add whole new
-    modules to SMACK quickly and easily. If you are savvy enough to build a
-    fancy spreadsheet, chances are you can pick up Quick Base in no time. The
-    Quick Base University, online resources and the abundance of Quick Base
-    consultants out there can help you achieve your vision if by chance there is
-    functionality you want to add to SMACK. SMACK is also fast to implement,
-    includes powerful dynamic reporting and is the #1 value in the industry.
+    SMACK GRC is built on the popular Quick Base platform which is used by more
+    than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
+    will have full control to configure SMACK GRC for your unique requirements.
+    This is not only includes your own branding and colors, but also reports,
+    fields, drop-down values, automation and notifications. You can also add
+    whole new modules to SMACK GRC quickly and easily. SMACK GRC is fast to
+    implement, includes powerful dynamic reporting and is the #1 value in the
+    industry.
 ---
 
