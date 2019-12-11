@@ -15,18 +15,10 @@ mainpitch:
   description: >-
     SMACK GRC provides a powerful solution to manage your GRC requirements
     making those in risk, compliance and controls more efficient and effective
-    in their positions. Created by risk, audit and compliance professionals, we
-    began with the most important feature - Reporting. Powerful, dynamic
-    multi-dimensional reporting. As professionals in this field, we knew we had
-    to get the reporting right or nothing else would really matter. SMACK GRC
-    makes it easy for you to get the data you need from system to attain
-    insightful understanding of your risk and control environment that will be
-    valuable to you in your role and also to a broad range of stakeholders. 
-
-    Besides being the most configurable (more on this below) and powerful
-    solution in the industry, it is also the highest value offering. There are
-    no separate or additional charges for additional modules. All modules are
-    included. 
+    in their positions. Created by risk, audit and compliance professionals,
+    SMACK GRC offers a product with the functionality our team has always
+    desired in a GRC tool and with a pricing model that can work for
+    organizations of all sizes. 
 description: >-
   SMACK GRC is built on the popular Quick Base platform which is used by more
   than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
