@@ -3,16 +3,16 @@ templateKey: requirements-page
 title: SMACK GRC Requirements
 mainDescription: >-
   No matter whether you are trying to achieve compliance with SOX, PCI DSS,
-  GDPR, NIST or any other standard, SMACK Powered by Quick Base will meet your
-  needs, helping you to ensure that your requirements are well managed and
-  compliance position clearly understood.
+  GDPR, NIST or any other standard, SMACK GRC will meet your needs, helping you
+  to ensure that your requirements are well managed and compliance position
+  clearly understood.
 image: /img/undraw_setup_analytics_8qkl.png
 heading: Requirements for GRC
 description: >-
   No matter whether you are trying to achieve compliance with SOX, PCI DSS,
-  GDPR, NIST or any other standard, SMACK Powered by Quick Base will meet your
-  needs, helping you to ensure that your requirements are well managed and
-  compliance position clearly understood.
+  GDPR, NIST or any other standard, SMACK GRC will meet your needs, helping you
+  to ensure that your requirements are well managed and compliance position
+  clearly understood.
 intro:
   blurbs:
     - text: >-
@@ -25,8 +25,8 @@ intro:
         compliant. 
           Use checklists within the controls management functionality to ensure that control operators are performing each essential part of key controls, especially "review" controls. 
         * Manage and monitor remediation of failed controls real-time
-          Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor profile, system profile, OU profile, control domain, etc. Build you own custom reports
-        * Fully customizable. Each organization has different needs when it
+          Powerful, dynamic multi-dimensional reporting. Pre-built dashboards and reports, see standing of controls by location, regulatory requirement, vendor or system profile, control domain, etc. Build you own custom reports
+        * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: 'Sarbanes Oxley, SOX'
@@ -46,10 +46,10 @@ intro:
           It is also important to track the handling of any potential data privacy incidents and perform Privacy Impact Assessments as appropriate for system and process changes. (Functionality coming soon, or quickly build your own)
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
+        requirement, vendor or system profile, control domain, etc. Build you
+        own custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: 'Data Privacy, GDPR, HIPAA'
@@ -68,15 +68,14 @@ intro:
 
         * Additionally it is important to track the monitoring of POS devices
         for tampering. This can be a monumental task and difficult to manage,
-        but can be monitored easily using SMACK and Quick Base (Functionality
-        coming soon, or quickly build your own)
+        but can be monitored easily using SMACK GRC
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, regulatory
-        requirement, vendor profile, system profile, OU profile, control domain,
-        etc. Build you own custom reports
+        requirement, vendor or system profile, control domain, etc. Build you
+        own custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: PCI DSS
@@ -95,10 +94,10 @@ intro:
 
         * Powerful, dynamic multi-dimensional reporting. Pre-built dashboards
         and reports, see standing of controls by location, Cyber Control Area
-        (NIST, ISO27k, etc.), regulatory requirement, vendor profile, system
-        profile, OU profile, control domain, etc. Build you own custom reports
+        (NIST, ISO27k, etc.), regulatory requirement, vendor or system profile,
+        control domain, etc. Build you own custom reports
 
-        * Fully customizable. Each organization has different needs when it
+        * Fully configurable. Each organization has different needs when it
         comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
       title: >-
@@ -110,16 +109,13 @@ intro:
 main:
   heading: Highly configurable and flexible requirements solution
   description: >
-    SMACK is built on the popular Quick Base platform which is used by more than
-    half of the Fortune 100. Because SMACK is built on Quick Base, you will have
-    full control to customize SMACK for your unique requirements. This is not
-    only includes your own branding and colors, but also reports, fields,
-    drop-down values, automation and notifications. You can also add whole new
-    modules to SMACK quickly and easily. If you are savvy enough to build a
-    fancy spreadsheet, chances are you can pick up Quick Base in no time. The
-    Quick Base University, online resources and the abundance of Quick Base
-    consultants out there can help you achieve your vision if by chance there is
-    functionality you want to add to SMACK. SMACK is also fast to implement,
-    includes powerful dynamic reporting and is the #1 value in the industry.
+    SMACK GRC is built on the popular Quick Base platform which is used by more
+    than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
+    will have full control to configure SMACK GRC for your unique requirements.
+    This is not only includes your own branding and colors, but also reports,
+    fields, drop-down values, automation and notifications. You can also add
+    whole new modules to SMACK quickly and easily. SMACK is fast to implement,
+    includes powerful dynamic reporting and has valuable functionality which
+    missing in those products offered by competitors.
 ---
 
