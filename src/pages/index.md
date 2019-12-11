@@ -33,9 +33,9 @@ description: >-
   will have full control to customize SMACK for your unique requirements. This
   is not only includes your own branding and colors, but also reports, fields,
   drop-down values, automation and notifications. You can also add whole new
-  modules to SMACK GRC quickly and easily. SMACK GRC is also fast to implement,
+  modules to SMACK GRC quickly and easily. SMACK GRC is fast to implement,
   includes powerful dynamic reporting and has valuable functionality which
-  missing in those products offered by the market leaders.
+  missing in those products offered by competitors.
 intro:
   blurbs:
     - text: >
