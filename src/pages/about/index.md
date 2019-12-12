@@ -14,6 +14,8 @@ image: /img/undraw_dashboard_nklg-blue-bg.png
 image_description: About SMACK GRC
 sections:
   - background_color: white
+    title: Security
+    image: /img/undraw_security_o890.png
     left_or_right: right
     text: >-
       For information about Quick Base Security, Privacy, Compliance, and SOC 1,
@@ -25,10 +27,10 @@ sections:
 
       Also, Quick Base's Cloud Security Alliance CAIQ is available for download
       from the CSA Star Registry
-    title: Security
-    image: /img/undraw_security_o890.png
     text_color: grey
   - background_color: green
+    title: Quick Base
+    image: /img/smack_logo_rgb_qb-reversed.png
     left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
@@ -86,10 +88,10 @@ sections:
       allowFullscreen frameborder="0" scrolling="no" class="wistia_embed"
       name="wistia_embed" src="https://fast.wistia.net/embed/iframe/aj8e4qjeim"
       width="400" height="225"></iframe>
-    title: Quick Base
-    image: /img/smack_logo_rgb_qb-reversed.png
     text_color: white
   - background_color: yellow
+    title: Training
+    image: /img/undraw_business_plan_5i9d.png
     left_or_right: right
     text: >-
       Training can be provided remotely via web conference and screen share or
@@ -100,10 +102,10 @@ sections:
       Additionally, you will have access to all Quick Base related resources
       including Quick Base University, a fantastic community of Quick Base power
       users, Quick Base webinars, videos and other events.
-    title: Training
-    image: /img/undraw_business_plan_5i9d.png
     text_color: white
   - background_color: white
+    title: Pricing
+    image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
       Straightforward transparent high-value pricing is important to us. Pricing
@@ -115,7 +117,7 @@ sections:
       Annual pricing tiers: 
 
 
-      Up to 5 users: USD20,000 
+      Up to 5 users: USD25,000 
 
 
       Up to 20 users: USD50,000
@@ -130,10 +132,10 @@ sections:
 
       All Quick Base plans include unlimited case-based support, plus access to
       the Quick Base community forum and online support documentation
-    title: Pricing
-    image: /img/undraw_Savings_dwkw.png
     text_color: grey
   - background_color: pink
+    title: Support
+    image: /img/undraw_active_support_6rwo.png
     left_or_right: right
     text: >-
       All Quick Base plans include unlimited case-based support, plus access to
@@ -144,10 +146,10 @@ sections:
 
 
       Purchase of initial product training is required (one-time only).
-    title: Support
-    image: /img/undraw_active_support_6rwo.png
     text_color: white
   - background_color: white
+    title: Contact Us
+    image: /img/undraw_contact_us_15o2.png
     left_or_right: left
     text: >-
       Request screenshare demo. We can usually meet with you within 48-72 hours
@@ -158,8 +160,6 @@ sections:
 
 
       Phone: 855-249-5655
-    title: Contact Us
-    image: /img/undraw_contact_us_15o2.png
     text_color: grey
 ---
 test
