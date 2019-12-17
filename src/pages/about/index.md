@@ -4,12 +4,13 @@ title: About SMACK GRC
 mainDescription: >-
   SMACK GRC was created by a team of audit, risk and compliance professionals
   after noticing a need in the market for a flexible, easy to use solution to
-  GRC needs. Having been in the industry for many years and never having found a
-  GRC application that was satisfying the SMACK GRC team set off to create their
-  own system that could be used for their organizations and also to share with
-  the Risk, Compliance and Audit community. Offering a product with the highest
-  quality and wide reaching functionality and at a price point for organizations
-  of all sizes is the primary objective of the SMACK GRC team.
+  fulfil GRC requirements. Having been in the industry for many years and never
+  having found a GRC application that was satisfying, the SMACK GRC team set off
+  to create their own system that could be used for their own organizations and
+  also to share with the Risk, Compliance and Audit community. Offering a
+  product with the highest quality and wide reaching functionality and at a
+  price point for organizations of all sizes is the primary objective of the
+  SMACK GRC team.
 image: /img/undraw_dashboard_nklg-blue-bg.png
 image_description: About SMACK GRC
 sections:
@@ -96,11 +97,11 @@ sections:
     text: >-
       Training can be provided remotely via web conference and screen share or
       in-person at your location. Training also offered at Park City, Utah, USA
-      or at your preferred global location. 
+      or at your preferred location. 
 
 
       Additionally, you will have access to all Quick Base related resources
-      including Quick Base University, a fantastic community of Quick Base power
+      including Quick Base University, a strong community of Quick Base power
       users, Quick Base webinars, videos and other events.
     text_color: white
   - background_color: white
@@ -108,10 +109,11 @@ sections:
     image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
-      Straightforward transparent high-value pricing is important to us. Pricing
-      is based on the number "Power Users" which includes individuals in Audit,
-      Compliance and/or Risk Management positions. People that will be in the
-      application as part of their day to day.
+      Affordable, transparent pricing is important to us. Pricing is based on
+      the number "Power Users" which includes individuals in Audit, Compliance
+      and/or Risk Management positions. People that will be in the application
+      as part of their day to day. There is no additional charge for users which
+      are seldom using the application.
 
 
       Annual pricing tiers: 
@@ -127,19 +129,19 @@ sections:
 
 
       Quick Base user account minimums do not apply when purchasing SMACK GRC.
-      Start with just one user or 1000+.
+      Start with just one user or 100+.
 
 
-      All Quick Base plans include unlimited case-based support, plus access to
-      the Quick Base community forum and online support documentation
+      All plans include unlimited case-based support, plus access to the Quick
+      Base community forum and online support documentation
     text_color: grey
   - background_color: pink
     title: Support
     image: /img/undraw_active_support_6rwo.png
     left_or_right: right
     text: >-
-      All Quick Base plans include unlimited case-based support, plus access to
-      the Quick Base community and online support documentation
+      All plans include unlimited case-based support, plus access to the Quick
+      Base community and online support documentation
 
       Additional support for SMACK GRC is also provided on an as needed basis
       via the SMACK GRC app. 
@@ -152,8 +154,9 @@ sections:
     image: /img/undraw_contact_us_15o2.png
     left_or_right: left
     text: >-
-      Request screenshare demo. We can usually meet with you within 48-72 hours
-      of receiving your request. Please include 2-3 available meeting times.
+      Request a screenshare demo. We can usually meet with you within 48-72
+      hours of receiving your request. Please include 2-3 available meeting
+      times.
 
 
       Email: info@smackgrc.com
