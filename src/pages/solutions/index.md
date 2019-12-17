@@ -1,10 +1,18 @@
 ---
 templateKey: solutions-page
 title: SMACK GRC Solutions
-mainDescription: SMACKGRC provides solutions for your GRC needs
+mainDescription: >-
+  SMACK GRC is an Enterprise GRC solution created to meet the needs of the 3
+  lines of assurance. It provides a solution to manage your GRC requirements
+  making those in risk, compliance and controls more efficient and effective in
+  their positions. Created by risk, audit and compliance professionals, SMACK
+  GRC offers a product with the functionality our team has always desired in a
+  GRC tool. 
 image: /img/undraw_revenue_3osh.png
 heading: Solutions for GRC
-description: SMACKGRC provides solutions for all of your GRC needs
+description: >-
+  SMACK GRC is an Enterprise GRC solution created to meet the needs of the 3
+  lines of assurance including those in Audit, Risk, Compliance and management.
 intro:
   blurbs:
     - title: Controls Management
