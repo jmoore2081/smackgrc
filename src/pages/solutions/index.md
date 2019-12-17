@@ -44,8 +44,10 @@ intro:
       text: >-
         * Track and manage your organizations' risks
 
-        * Use risk assessments for Projects, Audits, Controls, Observations and
-        Actions
+        * Perform periodic risk assessments
+
+        * Track risk exposure across Projects, Audits, Controls, Observations
+        and Actions
 
         * Dynamic multi-dimensional reporting. See potential risk exposures in
         one convenient view via associations with Audits, Projects, Controls,
@@ -56,10 +58,7 @@ intro:
         risk management. It is easy to add new fields, add to or change the
         functionality according to your organizations' needs
 
-        * Risk Survey functionality
-
-        * Send a survey to risk owners to get their feedback on identified
-        risks, update risk scores, etc
+        * Send Risk Assessment Surveys to risk owners
     - title: Audit and Project Management
       image: /img/undraw_projections_7g6a.png
       text: >-
