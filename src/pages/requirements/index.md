@@ -2,20 +2,22 @@
 templateKey: requirements-page
 title: SMACK GRC Requirements
 mainDescription: >-
-  No matter whether you are trying to achieve compliance with SOX, PCI DSS,
-  GDPR, NIST or any other standard, SMACK GRC will meet your needs, helping you
-  to ensure that your requirements are well managed and compliance position
+  Whether you are trying to achieve compliance with SOX, PCI DSS, GDPR, NIST or
+  any other standard, SMACK GRC can meet your requirements, helping you to
+  ensure that your organization's risks are well managed and compliance position
   clearly understood.
 image: /img/undraw_setup_analytics_8qkl.png
 heading: Requirements for GRC
 description: >-
   No matter whether you are trying to achieve compliance with SOX, PCI DSS,
-  GDPR, NIST or any other standard, SMACK GRC will meet your needs, helping you
-  to ensure that your requirements are well managed and compliance position
-  clearly understood.
+  GDPR, NIST or any other standard, SMACK GRC can meet your requirements,
+  helping you to ensure that your organizations risks are well managed and
+  compliance position clearly understood.
 intro:
   blurbs:
-    - text: >-
+    - title: 'Sarbanes Oxley, SOX'
+      image: /img/undraw_finance_0bdk.png
+      text: >-
         * SOX has evolved over the last number of years as the regulators,
         businesses and auditors have matured. Never has it been more important
         to ensure that evidence for the operation of controls is clear. 
@@ -29,9 +31,9 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: 'Sarbanes Oxley, SOX'
-      image: /img/undraw_finance_0bdk.png
-    - text: >-
+    - title: 'Data Privacy, GDPR, HIPAA'
+      image: /img/undraw_safe_bnk7.png
+      text: >-
         * Data Privacy laws are becoming ever more complex as each jurisdiction
         puts their own version of data privacy laws and consequences for
         breaches in place. Just check out the latest Baker McKenzie 2018 Global
@@ -52,9 +54,9 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: 'Data Privacy, GDPR, HIPAA'
-      image: /img/undraw_safe_bnk7.png
-    - text: >-
+    - title: PCI DSS
+      image: /img/undraw_security_o890.png
+      text: >-
         * PCI compliance is not easy to achieve with the breadth of more than
         200 required controls. 
 
@@ -78,9 +80,11 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: PCI DSS
-      image: /img/undraw_security_o890.png
-    - text: >-
+    - title: >-
+        Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO
+        27001, ISO 27002, etc.
+      image: /img/undraw_authentication_fsn5.png
+      text: >-
         * Keeping track of the existence and operation of cyber controls has
         never been more important. 
 
@@ -100,22 +104,18 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: >-
-        Cyber Security, NIST Cyber Security Framework, NIST SP 800-53, ISO
-        27001, ISO 27002, etc.
-      image: /img/undraw_authentication_fsn5.png
   heading: Requirements
   description: All modules included in all plans. No extra charge for additional modules
 main:
-  heading: Highly configurable and flexible requirements solution
+  heading: Configurable and flexible requirements solution
   description: >
     SMACK GRC is built on the popular Quick Base platform which is used by more
     than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
     will have full control to configure SMACK GRC for your unique requirements.
     This is not only includes your own branding and colors, but also reports,
     fields, drop-down values, automation and notifications. You can also add
-    whole new modules to SMACK quickly and easily. SMACK is fast to implement,
-    includes powerful dynamic reporting and has valuable functionality which
+    whole new modules to SMACK GRC quickly and easily. SMACK GRC is fast to
+    implement, includes dynamic reporting and has valuable functionality which
     missing in those products offered by competitors.
 ---
 
