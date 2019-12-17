@@ -1,13 +1,15 @@
 ---
 templateKey: solutions-page
 title: SMACK GRC Solutions
-mainDescription: SMACKGRC provides solutions for all of your GRC needs
+mainDescription: SMACKGRC provides solutions for your GRC needs
 image: /img/undraw_revenue_3osh.png
 heading: Solutions for GRC
 description: SMACKGRC provides solutions for all of your GRC needs
 intro:
   blurbs:
-    - text: >-
+    - title: Controls Management
+      image: /img/undraw_career_development_oqcb.png
+      text: >-
         * Configurable control notifications. You may not want to send control
         notifications to all users at the same frequency, or at all. Control
         Notifications are fully configurable for new, open and overdue controls
@@ -27,9 +29,9 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls management. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: Controls Management
-      image: /img/undraw_career_development_oqcb.png
-    - text: >-
+    - title: Risk Management
+      image: /img/undraw_financial_data_es63.png
+      text: >-
         * Track and manage your organizations' risks
 
         * Use risk assessments for Projects, Audits, Controls, Observations and
@@ -48,9 +50,9 @@ intro:
 
         * Send a survey to risk owners to get their feedback on identified
         risks, update risk scores, etc
-      title: Risk Management
-      image: /img/undraw_financial_data_es63.png
-    - text: >-
+    - title: Audit and Project Management
+      image: /img/undraw_projections_7g6a.png
+      text: >-
         * Task and Time management
 
         * Assign users tasks and allocate time and easily see users availability
@@ -73,9 +75,9 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to audit and project management. It is easy to add new fields, add
         to or change the functionality according to your organizations' needs
-      title: Audit and Project Management
-      image: /img/undraw_projections_7g6a.png
-    - text: >-
+    - title: Issue/Action Management
+      image: /img/undraw_bookmarks_r6up.png
+      text: >-
         * Assign actions to anyone with an email address. They do not need to be
         a QB user.
 
@@ -94,9 +96,9 @@ intro:
         and reports. See Issues and Actions by location, regulatory requirement,
         vendor or system profile, control domain, etc. Build your own custom
         reports.
-      title: Issue/Action Management
-      image: /img/undraw_bookmarks_r6up.png
-    - text: >-
+    - title: Controls Assessment Management
+      image: /img/undraw_all_the_data_h4ki.png
+      text: >-
         * Assign Controls Assessments to anyone with an email address. They do
         not need to be a QB user.
 
@@ -115,9 +117,9 @@ intro:
         * Fully configurable. Each organization has different needs when it
         comes to controls assessments. It is easy to add new fields, add to or
         change the functionality according to your organizations' needs
-      title: Controls Assessment Management
-      image: /img/undraw_all_the_data_h4ki.png
-    - text: >-
+    - title: Vendor Management
+      image: /img/undraw_data_xmfy.png
+      text: >-
         * Send Vendor Control Assessments to anyone with an email address. They
         do not need to be a QB user.
 
@@ -139,12 +141,10 @@ intro:
 
         * Track System and Vendor metadata including criticality, CIA
         attributes, etc.
-      title: Vendor Management
-      image: /img/undraw_data_xmfy.png
   heading: Solutions
   description: All modules included in all plans. No extra charge for additional modules
 main:
-  heading: Highly configurable and flexible solutions
+  heading: Configurable and flexible solutions
   description: >-
     SMACK GRC is built on the popular Quick Base platform which is used by more
     than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
@@ -152,7 +152,7 @@ main:
     This is not only includes your own branding and colors, but also reports,
     fields, drop-down values, automation and notifications. You can also add
     whole new modules to SMACK GRC quickly and easily. SMACK GRC is fast to
-    implement, includes powerful dynamic reporting and has valuable
-    functionality which missing in those products offered by competitors.
+    implement, includes dynamic reporting and has valuable functionality which
+    missing in those products offered by competitors.
 ---
 
