@@ -32,22 +32,22 @@ intro:
     - title: 2-3 week implementation time
       image: /img/undraw_professor_8lrt.png
       text: >-
-        Upload your data via MS Excel. Remote or on-site training and
-        implementation services. Training offered at Park City, Utah and other
-        locations globally as needed.
+        Upload your data via Microsoft Excel yourself, or use an implementer.
+        Remote or on-site training and implementation services are available.
+        Training is offered at Park City, Utah or at your preferred location.
     - title: No separate charges for individual modules
       image: /img/undraw_business_analytics_l92d.png
       text: >-
-        Unlike our competitors, all modules are included in all plans. SMACK GRC
-        is an Enterprise GRC solution created to meet the needs of all 3 lines
-        of assurance.
+        Unlike some of our competitors, all modules are included in all plans.
+        SMACK GRC is an Enterprise GRC solution created to meet the needs of the
+        3 lines of assurance.
     - title: Dynamic multi-dimensional reporting
       image: /img/undraw_pie_graph_x9dy.png
       text: >-
         One of the best features of SMACK GRC is its reporting. It is easy to
         create all types of reports, including, Kanban, Gantt, Calendar, Map,
         and various charts.
-    - title: Fully conifgurable by you without the need of a developer
+    - title: Conifgurable by you without the need of a developer
       image: /img/undraw_code_review_l1q9.png
       text: >-
         With SMACK GRC, you control everything from the layout to the
