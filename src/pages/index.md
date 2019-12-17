@@ -1,8 +1,8 @@
 ---
 templateKey: index-page
-title: 'Powerful, fully configurable'
+title: Enterprise GRC
 image: /img/patrick-t-kindt-1536513-unsplash.jpg
-heading: 'Powerful, completely configurable Audit, Risk & Compliance software'
+heading: 'Configurable Audit, Risk & Compliance software'
 subheading: 'Audit, Risk & Compliance software'
 button:
   - buttonLink: /solutions/
@@ -29,30 +29,31 @@ description: >-
   missing in those products offered by competitors.
 intro:
   blurbs:
-    - text: >
-        Upload your data quickly via MS Excel. Remote or on-site training and
+    - title: 2-3 week implementation time
+      image: /img/undraw_professor_8lrt.png
+      text: >-
+        Upload your data via MS Excel. Remote or on-site training and
         implementation services. Training offered at Park City, Utah and other
         locations globally as needed.
-      title: 2-3 week implementation time
-      image: /img/undraw_professor_8lrt.png
-    - text: |
-
-        Unlike our competitors, all modules are included in all plans.
-      title: No separate charges for individual modules
+    - title: No separate charges for individual modules
       image: /img/undraw_business_analytics_l92d.png
-    - text: >-
-        One of the best features of SMACK GRC is its powerful reporting. It is
-        easy to create all types of reports, including, Kanban, Gantt, Calendar,
-        Map, and Charts of many kinds.
-      title: 'Powerful, dynamic multi-dimensional reporting'
+      text: >-
+        Unlike our competitors, all modules are included in all plans. SMACK GRC
+        is an Enterprise GRC solution created to meet the needs of all 3 lines
+        of assurance.
+    - title: Dynamic multi-dimensional reporting
       image: /img/undraw_pie_graph_x9dy.png
-    - text: >-
-        With SMACK GRC, you control everything from the look and feel to the
+      text: >-
+        One of the best features of SMACK GRC is its reporting. It is easy to
+        create all types of reports, including, Kanban, Gantt, Calendar, Map,
+        and various charts.
+    - title: Fully conifgurable by you without the need of a developer
+      image: /img/undraw_code_review_l1q9.png
+      text: >-
+        With SMACK GRC, you control everything from the layout to the
         functionality. The workflows, forms, fields, tables, reports,
         dashboards, and other app building blocks can be configured to match
         your unique  processes.
-      title: Fully conifgurable by you without the need of a developer
-      image: /img/undraw_code_review_l1q9.png
   heading: Heading
   description: description
 demoCallout:
