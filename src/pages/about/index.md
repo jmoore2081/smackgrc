@@ -4,7 +4,7 @@ title: About SMACK GRC
 mainDescription: >-
   SMACK GRC was created by a team of audit, risk and compliance professionals
   after noticing a need in the market for a flexible, easy to use solution to
-  fulfil GRC requirements. Having been in the industry for many years and never
+  fulfill GRC requirements. Having been in the industry for many years and never
   having found a GRC application that was satisfying, the SMACK GRC team set off
   to create their own system that could be used for their own organizations and
   also to share with the Risk, Compliance and Audit community. Offering a
@@ -111,25 +111,26 @@ sections:
     text: >-
       Affordable, transparent pricing is important to us. Pricing is based on
       the number "Power Users" which includes individuals in Audit, Compliance
-      and/or Risk Management positions. People that will be in the application
-      as part of their day to day. There is no additional charge for users which
-      are seldom using the application.
+      and/or Risk Management positions; people that will be in the application
+      as part of their day to day responsibilities. There is no additional
+      charge for users which are seldom using the application such as control
+      owners or risk owners.
 
 
       Annual pricing tiers: 
 
 
-      Up to 5 users: USD25,000 
+      Up to 5 power users: USD25,000 
 
 
-      Up to 20 users: USD50,000
+      Up to 20 power users: USD50,000
 
 
-      Up to 50 users: USD100,000
+      Up to 50 power users: USD100,000
 
 
       Quick Base user account minimums do not apply when purchasing SMACK GRC.
-      Start with just one user or 100+.
+      Start with just 5 users or 100+.
 
 
       All plans include unlimited case-based support, plus access to the Quick
