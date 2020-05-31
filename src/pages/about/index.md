@@ -96,8 +96,8 @@ sections:
     left_or_right: right
     text: >-
       Training can be provided remotely via web conference and screen share or
-      in-person at your location. Training also offered at Park City, Utah, USA
-      or at your preferred location. 
+      in-person at your location. Training is also offered at Park City, Utah,
+      USA or at your preferred location. 
 
 
       Additionally, you will have access to all Quick Base related resources
