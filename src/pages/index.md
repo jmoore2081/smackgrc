@@ -21,9 +21,9 @@ mainpitch:
 description: >-
   SMACK GRC is built on the popular Quick Base platform which is used by more
   than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
-  will have full control to customize SMACK for your unique requirements. This
-  is not only includes your own branding and colors, but also reports, fields,
-  drop-down values, automation and notifications. SMACK GRC is fast to
+  will have full control to customize SMACK for your own unique requirements.
+  This is not only includes your own branding and colors, but also reports,
+  fields, drop-down values, automation and notifications. SMACK GRC is fast to
   implement, includes powerful dynamic reporting and has valuable functionality
   which missing in many products in the marketplace.
 intro:
