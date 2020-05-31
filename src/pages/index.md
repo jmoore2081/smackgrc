@@ -23,18 +23,18 @@ description: >-
   than half of the Fortune 100. Because SMACK GRC is built on Quick Base, you
   will have full control to customize SMACK for your unique requirements. This
   is not only includes your own branding and colors, but also reports, fields,
-  drop-down values, automation and notifications. You can also add whole new
-  modules to SMACK GRC quickly and easily. SMACK GRC is fast to implement,
-  includes powerful dynamic reporting and has valuable functionality which
-  missing in those products offered by competitors.
+  drop-down values, automation and notifications. SMACK GRC is fast to
+  implement, includes powerful dynamic reporting and has valuable functionality
+  which missing in many products in the marketplace.
 intro:
   blurbs:
     - title: 2-3 week implementation time
       image: /img/undraw_professor_8lrt.png
       text: >-
-        Upload your data via Microsoft Excel yourself, or use an implementer.
+        We will upload your existing data and templates during implementation.
         Remote or on-site training and implementation services are available.
-        Training is offered at Park City, Utah or at your preferred location.
+        Training is also offered at Park City, Utah or at your preferred
+        location.
     - title: No separate charges for individual modules
       image: /img/undraw_business_analytics_l92d.png
       text: >-
@@ -52,8 +52,8 @@ intro:
       text: >-
         With SMACK GRC, you control everything from the layout to the
         functionality. The workflows, forms, fields, tables, reports,
-        dashboards, and other app building blocks can be configured to match
-        your unique  processes.
+        dashboards, and other application building blocks can be configured to
+        match your own unique  processes.
   heading: Heading
   description: description
 demoCallout:
