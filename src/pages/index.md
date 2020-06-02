@@ -2,7 +2,7 @@
 templateKey: index-page
 title: Enterprise GRC
 image: /img/patrick-t-kindt-1536513-unsplash.jpg
-heading: 'Configurable Audit, Risk & Compliance software'
+heading: 'Audit, Risk & Compliance software that works the way you do'
 subheading: 'Audit, Risk & Compliance software'
 button:
   - buttonLink: /solutions/
@@ -24,23 +24,25 @@ description: >-
   will have full control to customize SMACK for your own unique requirements.
   This is not only includes your own branding and colors, but also reports,
   fields, drop-down values, automation and notifications. SMACK GRC is fast to
-  implement, includes powerful dynamic reporting and has valuable functionality
-  which missing in many products in the marketplace.
+  implement, includes powerful dynamic reporting and has functionality which is
+  missing in many products in the marketplace.
 intro:
   blurbs:
-    - title: 2-3 week implementation time
+    - title: 1 week implementation time
       image: /img/undraw_professor_8lrt.png
       text: >-
         We will upload your existing data and templates during implementation.
-        Remote or on-site training and implementation services are available.
-        Training is also offered at Park City, Utah or at your preferred
-        location.
+        In most cases everything can be done within 1 week. Remote or on-site
+        training and implementation services are available. Training is also
+        offered at Park City, Utah or at your preferred location.
     - title: No separate charges for individual modules
       image: /img/undraw_business_analytics_l92d.png
       text: >-
-        Unlike some of our competitors, all modules are included in all plans.
-        SMACK GRC is an Enterprise GRC solution created to meet the needs of the
-        3 lines of assurance.
+        Unlike others in the industry, all functionality is included in all
+        plans. SMACK GRC has wide ranging functionality. It is an integrated
+        risk management solution for audit, compliance, risk management,
+        controls, 3rd party compliance and cybersecurity. Designed to meet the
+        needs of all 3 lines of assurance.
     - title: Dynamic multi-dimensional reporting
       image: /img/undraw_pie_graph_x9dy.png
       text: >-
@@ -53,7 +55,7 @@ intro:
         With SMACK GRC, you control everything from the layout to the
         functionality. The workflows, forms, fields, tables, reports,
         dashboards, and other application building blocks can be configured to
-        match your own unique  processes.
+        match your own unique processes.
   heading: Heading
   description: description
 demoCallout:
