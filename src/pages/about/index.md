@@ -35,8 +35,8 @@ sections:
     left_or_right: left
     text: >-
       Quick Base is a tool that empowers business users to quickly create their
-      own custom software, without code, to improve daily operations and get
-      things done faster. 
+      own custom software to improve daily operations and get things done
+      faster. 
 
 
       Quick Base Core Capabilities:
@@ -57,8 +57,8 @@ sections:
       * permissions by role
 
 
-      Those closest to the business can build and update apps fast in response
-      to shifting business needs.
+      Business users can build and update apps fast in response to shifting
+      business needs.
 
 
       Improve operational efficiency & accelerate business growth.
