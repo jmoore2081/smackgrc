@@ -109,9 +109,6 @@ sections:
     image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
-      <a id="Pricing"></a>
-
-
       Affordable, transparent pricing is important to us. Pricing is based on
       the number "Power Users" which includes individuals in Audit, Compliance
       and/or Risk Management positions; people that will be in the application
