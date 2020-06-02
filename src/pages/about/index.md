@@ -26,8 +26,8 @@ sections:
       https://www.quickbase.com/security-and-compliance
 
 
-      Also, Quick Base's Cloud Security Alliance CAIQ is available for download
-      from the CSA Star Registry
+      Quick Base's Cloud Security Alliance CAIQ is available for download from
+      the CSA Star Registry
     text_color: grey
   - background_color: green
     title: Quick Base
@@ -100,9 +100,9 @@ sections:
       USA or at your preferred location. 
 
 
-      Additionally, you will have access to all Quick Base related resources
-      including Quick Base University, a strong community of Quick Base power
-      users, Quick Base webinars, videos and other events.
+      You will also have access to all Quick Base related resources including
+      Quick Base University, a strong community of Quick Base power users, Quick
+      Base webinars, videos and other events.
     text_color: white
   - background_color: white
     title: Pricing
