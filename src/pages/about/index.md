@@ -109,7 +109,7 @@ sections:
     image: /img/undraw_Savings_dwkw.png
     left_or_right: left
     text: >-
-      <a id="Pricing">
+      <a id="#Pricing"></a>
 
 
       Affordable, transparent pricing is important to us. Pricing is based on
